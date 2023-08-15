@@ -2,11 +2,23 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+time_t getDateTime_Epoch() {
 
 	time_t utc_now = time(NULL);
 
-	printf("Current UTC time is  %ld (EPOCH)\n", utc_now);
+	return utc_now;
+}
+
+struct tm *getDateTime_Tm() {
+
+	time_t utc_now = time(NULL);
+
+	return gmtime(&utc_now);
+}
+
+int main() {
+
+	printf("Current UTC time is  %ld (EPOCH)\n", getDateTime_Epoch());
 
 	return 0;
 }
