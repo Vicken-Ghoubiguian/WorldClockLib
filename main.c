@@ -25,6 +25,14 @@ time_t getDateTime_Epoch(char* timezone) {
         {
                 return utc_now + 3600;
         }
+	else if(strcmp(timezone, "Asia/Seoul") == 0)
+	{
+		return utc_now + 32400;
+	}
+	else if(strcmp(timezone, "Asia/Pyongyang") == 0)
+	{
+		return utc_now + 32400;
+	}
 	else
 	{
 		return -1;
@@ -52,6 +60,16 @@ struct tm *getDateTime_Tm(char* timezone) {
         else if(strcmp(timezone, "Africa/Bissau") == 0)
         {
                 tz_now = utc_now + 3600;
+		return gmtime(&tz_now);
+        }
+	else if(strcmp(timezone, "Asia/Seoul") == 0)
+        {
+                tz_now = utc_now + 32400;
+		return gmtime(&tz_now);
+        }
+        else if(strcmp(timezone, "Asia/Pyongyang") == 0)
+        {
+                tz_now = utc_now + 32400;
 		return gmtime(&tz_now);
         }
         else
