@@ -80,7 +80,8 @@ struct tm *getDateTime_Tm(char* timezone) {
 
 int main() {
 
-	printf("Current UTC time is  %ld (EPOCH)\n", getDateTime_Epoch("Africa/Algiers"));
+	//printf("Current UTC time is  %s\n", ctime(*getDateTime_Epoch("Africa/Algiers")));
+	printf("Current UTC time is  %s\n", asctime(getDateTime_Tm("Africa/Algiers")));
 
 	return 0;
 }
