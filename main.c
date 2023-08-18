@@ -85,15 +85,15 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Johannesburg
 		case 8:
-			tmz_now = utc_now + 7200;
+			tmz_now = utc_now + (2 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Juba
 		case 9:
-			tmz_now = utc_now + 7200;
+			tmz_now = utc_now + (2 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Khartoum
 		case 10:
-			tmz_now = utc_now + 7200;
+			tmz_now = utc_now + (2 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Lagos
 		case 11:
@@ -101,7 +101,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Maputo
 		case 12:
-			tmz_now = utc_now + 7200;
+			tmz_now = utc_now + (2 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Monrovia
 		case 13:
@@ -121,7 +121,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Tripoli
 		case 17:
-			tmz_now = utc_now + 7200;
+			tmz_now = utc_now + (2 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Tunis
 		case 18:
@@ -129,7 +129,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Windhoek
 		case 19:
-			tmz_now = utc_now + 7200;
+			tmz_now = utc_now + (2 * NB_MINUTES_IN_HOURS);
 			break;
 		// No available timezone
 		default:
