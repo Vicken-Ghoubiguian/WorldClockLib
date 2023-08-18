@@ -19,7 +19,14 @@ int getIndexFromTzArray(char* timezone)
 						"Africa/Juba",
 						"Africa/Khartoum",
 						"Africa/Lagos",
-						"Africa/Maputo"
+						"Africa/Maputo",
+						"Africa/Monrovia",
+						"Africa/Nairobi",
+						"Africa/Ndjamena",
+						"Africa/Sao_Tome",
+						"Africa/Tripoli",
+						"Africa/Tunis",
+						"Africa/Windhoek"
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -95,6 +102,34 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 12:
 			tmz_now = utc_now + 7200;
 			break;
+		// Africa/Monrovia
+		case 13:
+			tmz_now = utc_now;
+			break;
+		// Africa/Nairobi
+		case 14:
+			tmz_now = utc_now + 10800;
+			break;
+		// Africa/Ndjamena
+		case 15:
+			tmz_now = utc_now + 3600;
+			break;
+		// Africa/Sao_Tome
+		case 16:
+			tmz_now = utc_now;
+			break;
+		// Africa/Tripoli
+		case 17:
+			tmz_now = utc_now + 7200;
+			break;
+		// Africa/Tunis
+		case 18:
+			tmz_now = utc_now + 3600;
+			break;
+		// Africa/Windhoek
+		case 19:
+			tmz_now = utc_now + 7200;
+			break;
 		// No available timezone
 		default:
 			tmz_now = -1;
@@ -121,7 +156,7 @@ int main() {
 	/*time_t timestampGetDateTime = getDateTime_Epoch("Africa/Algiers");
 	printf("Current UTC time is %s\n", ctime(&timestampGetDateTime));*/
 
-	struct tm *tmGetDateTime = getDateTime_Tm("Africa/Khartoum");
+	struct tm *tmGetDateTime = getDateTime_Tm("Africa/Windhoek");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
 
 	return 0;
