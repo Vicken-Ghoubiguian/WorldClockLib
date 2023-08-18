@@ -17,7 +17,9 @@ int getIndexFromTzArray(char* timezone)
 						"Asia/Urumqi",
 						"Africa/Johannesburg",
 						"Africa/Juba",
-						"Africa/Khartoum"
+						"Africa/Khartoum",
+						"Africa/Lagos",
+						"Africa/Maputo"
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -83,6 +85,14 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Khartoum
 		case 10:
+			tmz_now = utc_now + 7200;
+			break;
+		// Africa/Lagos
+		case 11:
+			tmz_now = utc_now + 3600;
+			break;
+		// Africa/Maputo
+		case 12:
 			tmz_now = utc_now + 7200;
 			break;
 		// No available timezone
