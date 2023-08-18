@@ -19,7 +19,6 @@ time_t getDateTime_Epoch(char* timezone) {
 	}
 	else if(strcmp(timezone, "Africa/Algiers") == 0)
         {
-		printf("%ld", utc_now + 3600);
                 return utc_now + 3600;
         }
 	else if(strcmp(timezone, "Africa/Bissau") == 0)
@@ -42,41 +41,50 @@ time_t getDateTime_Epoch(char* timezone) {
 
 struct tm *getDateTime_Tm(char* timezone) {
 
-	time_t utc_now = time(NULL);
-	time_t tz_now;
+	time_t dtFromUTC = getDateTime_Epoch(timezone);
+	if(dtFromUTC != -1)
+	{
+		return gmtime(&dtFromUTC);
+	}
+	else
+	{
+		return __NULL;
+	}
 
-	if(strcmp(timezone, "UTC") == 0)
+	/*if(strcmp(timezone, "UTC") == 0)
         {
-                return gmtime(&utc_now);
+		time_t dtFromUTC = getDateTime_Epoch("UTC");
+                return gmtime(&dtFromUTC);
         }
 	else if(strcmp(timezone, "Africa/Abidjan") == 0)
         {
-                return gmtime(&utc_now);
+		time_t dtFromUTC = getDateTime_Epoch("Africa/Abidjan");
+                return gmtime(&dtFromUTC);
         }
         else if(strcmp(timezone, "Africa/Algiers") == 0)
         {
-                tz_now = utc_now + 3600;
+                time_t tz_now = getDateTime_Epoch("Africa/Algiers");
 		return gmtime(&tz_now);
         }
         else if(strcmp(timezone, "Africa/Bissau") == 0)
         {
-                tz_now = utc_now + 3600;
+                time_t tz_now = getDateTime_Epoch("Africa/Bissau");
 		return gmtime(&tz_now);
         }
 	else if(strcmp(timezone, "Asia/Seoul") == 0)
         {
-                tz_now = utc_now + 32400;
+                time_t tz_now = getDateTime_Epoch("Asia/Seoul");
 		return gmtime(&tz_now);
         }
         else if(strcmp(timezone, "Asia/Pyongyang") == 0)
         {
-                tz_now = utc_now + 32400;
+                time_t tz_now = getDateTime_Epoch("Asia/Pyongyang");
 		return gmtime(&tz_now);
         }
         else
         {
                 return __NULL;
-        }
+        }*/
 }
 
 int main() {
