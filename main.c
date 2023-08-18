@@ -69,19 +69,19 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Asia/Seoul
 		case 4:
-			tmz_now = utc_now + 32400;
+			tmz_now = utc_now + (9 * NB_MINUTES_IN_HOURS);
 			break;
 		// Asia/Pyongyang
 		case 5:
-			tmz_now = utc_now + 32400;
+			tmz_now = utc_now + (9 * NB_MINUTES_IN_HOURS);
 			break;
 		// Asia/Shanghai
 		case 6:
-			tmz_now = utc_now + 28800;
+			tmz_now = utc_now + (8 * NB_MINUTES_IN_HOURS);
 			break;
 		// Asia/Urumqi
 		case 7:
-			tmz_now = utc_now + 21600;
+			tmz_now = utc_now + (6 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Johannesburg
 		case 8:
@@ -109,7 +109,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Nairobi
 		case 14:
-			tmz_now = utc_now + 10800;
+			tmz_now = utc_now + (3 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Ndjamena
 		case 15:
@@ -157,7 +157,7 @@ int main() {
 	/*time_t timestampGetDateTime = getDateTime_Epoch("Africa/Algiers");
 	printf("Current UTC time is %s\n", ctime(&timestampGetDateTime));*/
 
-	struct tm *tmGetDateTime = getDateTime_Tm("Africa/Windhoek");
+	struct tm *tmGetDateTime = getDateTime_Tm("Asia/Shanghai");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
 
 	return 0;
