@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "./dtFRMtz/dtFRMtz.h"
-
-/*
+#include <string.h>
+#include <time.h>
+#include "dtFRMtz.h"
 
 #define NB_MINUTES_IN_HOURS 3600
 #define __NULL ((void *)0)
@@ -151,15 +149,4 @@ struct tm *getDateTime_Tm(char* timezone) {
 	{
 		return __NULL;
 	}
-}*/
-
-int main() {
-
-	/*time_t timestampGetDateTime = getDateTime_Epoch("Africa/Algiers");
-	printf("Current UTC time is %s\n", ctime(&timestampGetDateTime));*/
-
-	struct tm *tmGetDateTime = getDateTime_Tm("Asia/Shanghai");
-	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
-
-	return 0;
 }
