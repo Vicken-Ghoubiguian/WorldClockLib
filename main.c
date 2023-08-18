@@ -30,30 +30,39 @@ time_t getDateTime_Epoch(char* timezone) {
 
 	switch(tzIndex)
 	{
+		// UTC
 		case 0:
 			tmz_now = utc_now;
 			break;
+		// Africa/Abidjan
 		case 1:
 			tmz_now = utc_now;
 			break;
+		// Africa/Algiers
 		case 2:
 			tmz_now = utc_now + 3600;
 			break;
+		// Africa/Bissau
 		case 3:
 			tmz_now = utc_now + 3600;
 			break;
+		// Asia/Seoul
 		case 4:
 			tmz_now = utc_now + 32400;
 			break;
+		// Asia/Pyongyang
 		case 5:
 			tmz_now = utc_now + 32400;
 			break;
+		// Asia/Shanghai
 		case 6:
 			tmz_now = utc_now + 28800;
 			break;
+		// Asia/Urumqi
 		case 7:
 			tmz_now = utc_now + 21600;
 			break;
+		// No available timezone
 		default:
 			tmz_now = -1;
 	}
