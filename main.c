@@ -9,11 +9,11 @@ int getIndexFromTzArray(char* timezone)
 {
 	char* tzArray[] = {"UTC", "Africa/Abidjan", "Africa/Algiers", "Africa/Bissau", "Asia/Seoul", "Asia/Pyongyang"};
      
-    int arrLen = sizeof arr / sizeof arr[0];
+    int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
     int index = -1;
      
-    for (int i = 0; i < arrLen; i++) {
-        if (arr[i] == timezone) {
+    for (int i = 0; i < tzArrayLen; i++) {
+        if (tzArray[i] == timezone) {
             index = i;
             break;
         }
@@ -24,9 +24,37 @@ int getIndexFromTzArray(char* timezone)
 
 time_t getDateTime_Epoch(char* timezone) {
 
+	time_t tmz_now;
 	time_t utc_now = time(NULL);
+	int tzIndex = getIndexFromTzArray(timezone);
 
-	if(strcmp(timezone, "UTC") == 0)
+	switch(tzIndex)
+	{
+		case 0:
+			tmz_now = utc_now;
+			break;
+		case 1:
+			tmz_now = utc_now;
+			break;
+		case 2:
+			tmz_now = utc_now + 3600;
+			break;
+		case 3:
+			tmz_now = utc_now + 3600;
+			break;
+		case 4:
+			tmz_now = utc_now + 32400;
+			break;
+		case 5:
+			tmz_now = utc_now + 32400;
+			break;
+		default:
+			tmz_now = -1;
+	}
+
+	return tmz_now;
+
+	/*if(strcmp(timezone, "UTC") == 0)
 	{
 		return utc_now;
 	}
@@ -53,7 +81,7 @@ time_t getDateTime_Epoch(char* timezone) {
 	else
 	{
 		return -1;
-	}
+	}*/
 }
 
 struct tm *getDateTime_Tm(char* timezone) {
