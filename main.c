@@ -61,11 +61,11 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Algiers
 		case 2:
-			tmz_now = utc_now + 3600;
+			tmz_now = utc_now + (1 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Bissau
 		case 3:
-			tmz_now = utc_now + 3600;
+			tmz_now = utc_now + (1 * NB_MINUTES_IN_HOURS);
 			break;
 		// Asia/Seoul
 		case 4:
@@ -97,7 +97,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Lagos
 		case 11:
-			tmz_now = utc_now + 3600;
+			tmz_now = utc_now + (1 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Maputo
 		case 12:
@@ -113,7 +113,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Ndjamena
 		case 15:
-			tmz_now = utc_now + 3600;
+			tmz_now = utc_now + (1 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Sao_Tome
 		case 16:
@@ -125,7 +125,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Africa/Tunis
 		case 18:
-			tmz_now = utc_now + 3600;
+			tmz_now = utc_now + (1 * NB_MINUTES_IN_HOURS);
 			break;
 		// Africa/Windhoek
 		case 19:
