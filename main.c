@@ -7,7 +7,7 @@
 
 int getIndexFromTzArray(char* timezone)
 {
-	char* tzArray[] = {"UTC", "Africa/Abidjan", "Africa/Algiers", "Africa/Bissau", "Asia/Seoul", "Asia/Pyongyang"};
+	char* tzArray[] = {"UTC", "Africa/Abidjan", "Africa/Algiers", "Africa/Bissau", "Asia/Seoul", "Asia/Pyongyang", "Asia/Shanghai", "Asia/Urumqi"};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
     int index = -1;
@@ -48,6 +48,12 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 5:
 			tmz_now = utc_now + 32400;
 			break;
+		case 6:
+			tmz_now = utc_now + 28800;
+			break;
+		case 7:
+			tmz_now = utc_now + 21600;
+			break;
 		default:
 			tmz_now = -1;
 	}
@@ -73,7 +79,7 @@ int main() {
 	/*time_t timestampGetDateTime = getDateTime_Epoch("Africa/Algiers");
 	printf("Current UTC time is %s\n", ctime(&timestampGetDateTime));*/
 
-	struct tm *tmGetDateTime = getDateTime_Tm("Africa/Algiers");
+	struct tm *tmGetDateTime = getDateTime_Tm("Asia/Shanghai");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
 
 	return 0;
