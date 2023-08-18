@@ -5,6 +5,23 @@
 
 #define __NULL ((void *)0)
 
+int getIndexFromTzArray(char* timezone)
+{
+	char* tzArray[] = {"UTC", "Africa/Abidjan", "Africa/Algiers", "Africa/Bissau", "Asia/Seoul", "Asia/Pyongyang"};
+     
+    int arrLen = sizeof arr / sizeof arr[0];
+    int index = -1;
+     
+    for (int i = 0; i < arrLen; i++) {
+        if (arr[i] == timezone) {
+            index = i;
+            break;
+        }
+    }
+
+	return index;
+}
+
 time_t getDateTime_Epoch(char* timezone) {
 
 	time_t utc_now = time(NULL);
