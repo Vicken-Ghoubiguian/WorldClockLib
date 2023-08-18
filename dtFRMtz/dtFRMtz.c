@@ -26,7 +26,10 @@ int getIndexFromTzArray(char* timezone)
 						"Africa/Sao_Tome",
 						"Africa/Tripoli",
 						"Africa/Tunis",
-						"Africa/Windhoek"
+						"Africa/Windhoek",
+						"America/Araguaina",
+						"America/Argentina/Buenos_Aires",
+						"America/Argentina/Catamarca"
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -129,6 +132,18 @@ time_t getDateTime_Epoch(char* timezone) {
 		// Africa/Windhoek
 		case 19:
 			tmz_now = utc_now + (2 * NB_MINUTES_IN_HOURS);
+			break;
+		// America/Araguaina
+		case 20:
+			tmz_now = utc_now + (-3 * NB_MINUTES_IN_HOURS);
+			break;
+		// America/Argentina/Buenos_Aires
+		case 21:
+			tmz_now = utc_now + (-3 * NB_MINUTES_IN_HOURS);
+			break;
+		// America/Argentina/Catamarca
+		case 21:
+			tmz_now = utc_now + (-3 * NB_MINUTES_IN_HOURS);
 			break;
 		// No available timezone
 		default:
