@@ -3,6 +3,7 @@
 #include <time.h>
 #include <string.h>
 
+#define NB_MINUTES_IN_HOURS 3600
 #define __NULL ((void *)0)
 
 int getIndexFromTzArray(char* timezone)
