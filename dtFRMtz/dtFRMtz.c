@@ -29,7 +29,16 @@ int getIndexFromTzArray(char* timezone)
 						"Africa/Windhoek",
 						"America/Araguaina",
 						"America/Argentina/Buenos_Aires",
-						"America/Argentina/Catamarca"
+						"America/Argentina/Catamarca",
+						"America/Argentina/Cordoba",
+						"America/Argentina/Jujuy",
+						"America/Argentina/La_Rioja",
+						"America/Argentina/Mendoza",
+						"America/Argentina/Rio_Gallegos",
+						"America/Argentina/San_Juan",
+						"America/Argentina/San_Luis",
+						"America/Argentina/Tucuman",
+						"America/Argentina/Ushuaia"
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -143,6 +152,46 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// America/Argentina/Catamarca
 		case 22:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/Cordoba
+		case 23:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/Jujuy
+		case 24:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/La_Rioja
+		case 25:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/Mendoza
+		case 26:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/Rio_Gallegos
+		case 27:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/Salta
+		case 28:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/San_Juan
+		case 29:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/San_Luis
+		case 30:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/Tucuman
+		case 31:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Argentina/Ushuaia
+		case 32:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// No available timezone
