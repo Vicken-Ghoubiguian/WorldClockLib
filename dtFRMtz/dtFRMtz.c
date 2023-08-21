@@ -28,19 +28,43 @@ int getIndexFromTzArray(char* timezone)
 						"Asia/Shanghai", 
 						"Asia/Urumqi",
 
-						// 
+						// ZA, LS, SZ
 						"Africa/Johannesburg",
+
+						// SS
 						"Africa/Juba",
+
+						// SD
 						"Africa/Khartoum",
+
+						// NG, AO, BJ, CD, CF, CG, CM, GA, GQ, NE
 						"Africa/Lagos",
+
+						// MZ, BI, BW, CD, MW, RW, ZM, ZW
 						"Africa/Maputo",
+
+						// LR
 						"Africa/Monrovia",
+
+						// KE, DJ, ER, ET, KM, MG, SO, TZ, UG, YT
 						"Africa/Nairobi",
+
+						// TD
 						"Africa/Ndjamena",
+
+						// ST
 						"Africa/Sao_Tome",
+
+						// LY
 						"Africa/Tripoli",
+
+						// TN
 						"Africa/Tunis",
+
+						// NA
 						"Africa/Windhoek",
+
+						// BR
 						"America/Araguaina",
 
 						// AR
