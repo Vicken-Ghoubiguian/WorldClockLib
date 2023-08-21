@@ -7,9 +7,15 @@
 
 int getIndexFromTzArray(char* timezone)
 {
-	char* tzArray[] = {	"UTC", 
-						"Africa/Abidjan", 
-						"Africa/Algiers", 
+	char* tzArray[] = {	"UTC",
+
+						// CI, BF, GH, GM, GN, IS, ML, MR, SH, SL, SN, TG
+						"Africa/Abidjan",
+
+						// DZ
+						"Africa/Algiers",
+
+						// GW
 						"Africa/Bissau",
 
 						// KR
@@ -230,6 +236,106 @@ time_t getDateTime_Epoch(char* timezone) {
 		// America/Argentina/Ushuaia
 		case 32:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Moscow
+		case 33:
+			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Anadyr
+		case 34:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Barnaul
+		case 35:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Chita
+		case 35:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Irkutsk
+		case 36:
+			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Kamchatka
+		case 37:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Khandyga
+		case 38:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Krasnoyarsk
+		case 39:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Magadan
+		case 40:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Novokuznetsk
+		case 41:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Novosibirsk
+		case 42:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Omsk
+		case 43:
+			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Sakhalin
+		case 44:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Srednekolymsk
+		case 45:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Tomsk
+		case 46:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Ust-Nera
+		case 47:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Vladivostok
+		case 48:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Yakutsk
+		case 49:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Yekaterinburg
+		case 50:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Kaliningrad
+		case 51:
+			tmz_now = utc_now + (2 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Kirov
+		case 52:
+			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Samara
+		case 53:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Saratov
+		case 54:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Simferopol
+		case 55:
+			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Ulyanovsk
+		case 55:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// No available timezone
 		default:
