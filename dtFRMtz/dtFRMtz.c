@@ -10,11 +10,19 @@ int getIndexFromTzArray(char* timezone)
 	char* tzArray[] = {	"UTC", 
 						"Africa/Abidjan", 
 						"Africa/Algiers", 
-						"Africa/Bissau", 
-						"Asia/Seoul", 
-						"Asia/Pyongyang", 
+						"Africa/Bissau",
+
+						// KR
+						"Asia/Seoul",
+
+						// KP
+						"Asia/Pyongyang",
+
+						// CN
 						"Asia/Shanghai", 
 						"Asia/Urumqi",
+
+						// 
 						"Africa/Johannesburg",
 						"Africa/Juba",
 						"Africa/Khartoum",
