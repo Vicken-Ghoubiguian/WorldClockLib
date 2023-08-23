@@ -12,6 +12,8 @@ int main() {
 	scanf("%s", tz);
 	printf("\n");
 
+	printf("%s", tz);
+
 	struct tm *tmGetDateTime = getDateTime_Tm("Pacific/Marquesas");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
 
