@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "./dtFRMtz/dtFRMtz.h"
 
 int main() {
@@ -6,13 +7,15 @@ int main() {
 	/*time_t timestampGetDateTime = getDateTime_Epoch("Africa/Algiers");
 	printf("Current UTC time is %s\n", ctime(&timestampGetDateTime));*/
 
-	/*char tz[20];
+	char* tz = malloc(30);
 	printf("Veuillez saisir le timezone que vous voulez : ");
 	scanf("%s", tz);
-	printf("\n");*/
+	printf("\n");
 
 	struct tm *tmGetDateTime = getDateTime_Tm("Pacific/Marquesas");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
+
+	free(tz);
 
 	return 0;
 }
