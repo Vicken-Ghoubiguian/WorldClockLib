@@ -1,4 +1,5 @@
 #include <string.h>
+#include <stdio.h>
 #include <time.h>
 #include "dtFRMtz.h"
 
@@ -8,105 +9,106 @@
 
 int getIndexFromTzArray(char* timezone)
 {
-	char* tzArray[] = {	"UTC",
+	char* tzArray[] = {	"UTC", // 0
 
 						// CI, BF, GH, GM, GN, IS, ML, MR, SH, SL, SN, TG
-						"Africa/Abidjan",
+						"Africa/Abidjan", // 1
 
 						// DZ
-						"Africa/Algiers",
+						"Africa/Algiers", // 2
 
 						// GW
-						"Africa/Bissau",
+						"Africa/Bissau", // 3
 
 						// KR
-						"Asia/Seoul",
+						"Asia/Seoul", // 4
 
 						// KP
-						"Asia/Pyongyang",
+						"Asia/Pyongyang", // 5
 
 						// CN
-						"Asia/Shanghai", 
-						"Asia/Urumqi",
+						"Asia/Shanghai", // 6
+						"Asia/Urumqi", // 7
 
 						// ZA, LS, SZ
-						"Africa/Johannesburg",
+						"Africa/Johannesburg", // 8
 
 						// SS
-						"Africa/Juba",
+						"Africa/Juba", // 9
 
 						// SD
-						"Africa/Khartoum",
+						"Africa/Khartoum", // 10
 
 						// NG, AO, BJ, CD, CF, CG, CM, GA, GQ, NE
-						"Africa/Lagos",
+						"Africa/Lagos", // 11
 
 						// MZ, BI, BW, CD, MW, RW, ZM, ZW
-						"Africa/Maputo",
+						"Africa/Maputo", // 12
 
 						// LR
-						"Africa/Monrovia",
+						"Africa/Monrovia", // 13
 
 						// KE, DJ, ER, ET, KM, MG, SO, TZ, UG, YT
-						"Africa/Nairobi",
+						"Africa/Nairobi", // 14
 
 						// TD
-						"Africa/Ndjamena",
+						"Africa/Ndjamena", // 15
 
 						// ST
-						"Africa/Sao_Tome",
+						"Africa/Sao_Tome", // 16
 
 						// LY
-						"Africa/Tripoli",
+						"Africa/Tripoli", // 17
 
 						// TN
-						"Africa/Tunis",
+						"Africa/Tunis", // 18
 
 						// NA
-						"Africa/Windhoek",
+						"Africa/Windhoek", // 19
 
 						// BR
-						"America/Araguaina",
+						"America/Araguaina", // 20
 
 						// AR
-						"America/Argentina/Buenos_Aires",
-						"America/Argentina/Catamarca",
-						"America/Argentina/Cordoba",
-						"America/Argentina/Jujuy",
-						"America/Argentina/La_Rioja",
-						"America/Argentina/Mendoza",
-						"America/Argentina/Rio_Gallegos",
-						"America/Argentina/San_Juan",
-						"America/Argentina/San_Luis",
-						"America/Argentina/Tucuman",
-						"America/Argentina/Ushuaia",
+						"America/Argentina/Buenos_Aires", // 21
+						"America/Argentina/Catamarca", // 22
+						"America/Argentina/Cordoba", // 23
+						"America/Argentina/Jujuy", // 24
+						"America/Argentina/La_Rioja", // 25
+						"America/Argentina/Mendoza", // 26
+						"America/Argentina/Rio_Gallegos", // 27
+						"America/Argentina/Salta", //28
+						"America/Argentina/San_Juan", // 29
+						"America/Argentina/San_Luis", // 30
+						"America/Argentina/Tucuman", // 31
+						"America/Argentina/Ushuaia", // 32
 
 						// RU
-						"Europe/Moscow",
-						"Asia/Anadyr",
-						"Asia/Barnaul",
-						"Asia/Chita",
-						"Asia/Irkutsk",
-						"Asia/Kamchatka",
-						"Asia/Khandyga",
-						"Asia/Krasnoyarsk",
-						"Asia/Magadan",
-						"Asia/Novokuznetsk",
-						"Asia/Novosibirsk",
-						"Asia/Omsk",
-						"Asia/Sakhalin",
-						"Asia/Srednekolymsk",
-						"Asia/Tomsk",
-						"Asia/Ust-Nera",
-						"Asia/Vladivostok",
-						"Asia/Yakutsk",
-						"Asia/Yekaterinburg",
-						"Europe/Kaliningrad",
-						"Europe/Kirov",
-						"Europe/Samara",
-						"Europe/Saratov",
-						"Europe/Simferopol",
-						"Europe/Ulyanovsk",
+						"Europe/Moscow", // 33
+						"Asia/Anadyr", // 34
+						"Asia/Barnaul", // 35
+						"Asia/Chita", // 36
+						"Asia/Irkutsk", // 37
+						"Asia/Kamchatka", // 38
+						"Asia/Khandyga", // 39
+						"Asia/Krasnoyarsk", // 40
+						"Asia/Magadan", // 41
+						"Asia/Novokuznetsk", // 42
+						"Asia/Novosibirsk", // 43
+						"Asia/Omsk", // 44
+						"Asia/Sakhalin", // 45
+						"Asia/Srednekolymsk", // 46
+						"Asia/Tomsk", // 47
+						"Asia/Ust-Nera", // 48
+						"Asia/Vladivostok", // 49
+						"Asia/Yakutsk", // 50
+						"Asia/Yekaterinburg", // 51
+						"Europe/Kaliningrad", // 52
+						"Europe/Kirov", // 53
+						"Europe/Samara", // 54
+						"Europe/Saratov", // 55
+						"Europe/Simferopol", // 56
+						"Europe/Ulyanovsk", // 57
 
 						// WS
 						"Pacific/Apia",
@@ -349,195 +351,195 @@ time_t getDateTime_Epoch(char* timezone) {
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Chita
-		case 35:
+		case 36:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Irkutsk
-		case 36:
+		case 37:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kamchatka
-		case 37:
+		case 38:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Khandyga
-		case 38:
+		case 39:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Krasnoyarsk
-		case 39:
+		case 40:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Magadan
-		case 40:
+		case 41:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Novokuznetsk
-		case 41:
-			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Novosibirsk
 		case 42:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
-		// Asia/Omsk
+		// Asia/Novosibirsk
 		case 43:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Omsk
+		case 44:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Sakhalin
-		case 44:
-			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Srednekolymsk
 		case 45:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
-		// Asia/Tomsk
+		// Asia/Srednekolymsk
 		case 46:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Tomsk
+		case 47:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Ust-Nera
-		case 47:
-			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Vladivostok
 		case 48:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
-		// Asia/Yakutsk
+		// Asia/Vladivostok
 		case 49:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Yakutsk
+		case 50:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Yekaterinburg
-		case 50:
+		case 51:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Kaliningrad
-		case 51:
+		case 52:
 			tmz_now = utc_now + (2 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Kirov
-		case 52:
+		case 53:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Samara
-		case 53:
-			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Saratov
 		case 54:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
-		// Europe/Simferopol
-		case 55:
-			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Ulyanovsk
+		// Europe/Saratov
 		case 55:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
-		// Pacific/Apia
+		// Europe/Simferopol
 		case 56:
+			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Ulyanovsk
+		case 57:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Apia
+		case 58:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Bougainville
-		case 57:
+		case 59:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Efate
-		case 58:
+		case 60:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Fakaofo
-		case 59:
+		case 61:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Fiji
-		case 60:
+		case 62:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Galapagos
-		case 61:
+		case 63:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Gambier
-		case 62:
+		case 64:
 			tmz_now = utc_now + (-9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Guadalcanal
-		case 63:
+		case 65:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Guam
-		case 63:
+		case 66:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Honolulu
-		case 64:
+		case 67:
 			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kanton
-		case 65:
+		case 68:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kiritimati
-		case 66:
+		case 69:
 			tmz_now = utc_now + (14 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kosrae
-		case 67:
+		case 70:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kwajalein
-		case 68:
-			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Marquesas
-		case 69:
-			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
-			break;
-		// Pacific/Tahiti
-		case 70:
-			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Nauru
 		case 71:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
-		// Pacific/Niue
+		// Pacific/Marquesas
 		case 72:
+			tmz_now = utc_now - (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Pacific/Tahiti
+		case 73:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Nauru
+		case 74:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Niue
+		case 75:
 			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Noumea
-		case 73:
+		case 76:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Pago_Pago
-		case 74:
+		case 77:
 			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Palau
-		case 75:
+		case 78:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Pitcairn
-		case 76:
+		case 79:
 			tmz_now = utc_now + (-8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Port_Moresby
-		case 77:
+		case 80:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Rarotonga
-		case 78:
+		case 81:
 			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Tarawa
-		case 79:
+		case 82:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Tongatapu
-		case 80:
+		case 83:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// No available timezone
