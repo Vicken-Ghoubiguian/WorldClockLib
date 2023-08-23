@@ -105,7 +105,81 @@ int getIndexFromTzArray(char* timezone)
 						"Europe/Samara",
 						"Europe/Saratov",
 						"Europe/Simferopol",
-						"Europe/Ulyanovsk"
+						"Europe/Ulyanovsk",
+
+						// WS
+						"Pacific/Apia",
+
+						// PG
+						"Pacific/Bougainville",
+
+						// VU
+						"Pacific/Efate",
+
+						// TK
+						"Pacific/Fakaofo",
+
+						// FJ
+						"Pacific/Fiji",
+
+						// EC
+						"Pacific/Galapagos",
+
+						// PF
+						"Pacific/Gambier",
+
+						// SB, FM
+						"Pacific/Guadalcanal",
+
+						// GU, MP
+						"Pacific/Guam",
+
+						// US
+						"Pacific/Honolulu",
+
+						// KI
+						"Pacific/Kanton",
+						"Pacific/Kiritimati",
+
+						// FM
+						"Pacific/Kosrae",
+
+						// MH
+						"Pacific/Kwajalein",
+
+						// PF
+						"Pacific/Marquesas",
+						"Pacific/Tahiti",
+
+						// NR
+						"Pacific/Nauru",
+
+						// NU
+						"Pacific/Niue",
+
+						// NC
+						"Pacific/Noumea",
+
+						// AS, UM
+						"Pacific/Pago_Pago",
+
+						// PW
+						"Pacific/Palau",
+
+						// PN
+						"Pacific/Pitcairn",
+
+						// PG, AQ, FM
+						"Pacific/Port_Moresby",
+
+						// CK
+						"Pacific/Rarotonga",
+
+						// KI, MH, TV, UM, WF
+						"Pacific/Tarawa",
+
+						// TO
+						"Pacific/Tongatapu"
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
