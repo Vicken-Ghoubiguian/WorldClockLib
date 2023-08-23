@@ -3,6 +3,7 @@
 #include "dtFRMtz.h"
 
 #define NB_SECONDS_IN_HOURS 3600
+#define NB_SECONDS_IN_MINUTES 60
 #define __NULL ((void *)0)
 
 int getIndexFromTzArray(char* timezone)
@@ -434,6 +435,110 @@ time_t getDateTime_Epoch(char* timezone) {
 		// Europe/Ulyanovsk
 		case 55:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Apia
+		case 56:
+			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Bougainville
+		case 57:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Efate
+		case 58:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Fakaofo
+		case 59:
+			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Fiji
+		case 60:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Galapagos
+		case 61:
+			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Gambier
+		case 62:
+			tmz_now = utc_now + (-9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Guadalcanal
+		case 63:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Guam
+		case 63:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Honolulu
+		case 64:
+			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Kanton
+		case 65:
+			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Kiritimati
+		case 66:
+			tmz_now = utc_now + (14 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Kosrae
+		case 67:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Kwajalein
+		case 68:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Marquesas
+		case 69:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Pacific/Tahiti
+		case 70:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Nauru
+		case 71:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Niue
+		case 72:
+			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Noumea
+		case 73:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Pago_Pago
+		case 74:
+			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Palau
+		case 75:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Pitcairn
+		case 76:
+			tmz_now = utc_now + (-8 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Port_Moresby
+		case 77:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Rarotonga
+		case 78:
+			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Tarawa
+		case 79:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Tongatapu
+		case 80:
+			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// No available timezone
 		default:
