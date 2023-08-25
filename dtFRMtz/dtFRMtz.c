@@ -184,14 +184,14 @@ int getIndexFromTzArray(char* timezone)
 						"Pacific/Tongatapu", // 83
 
 						// MX
-						"America/Bahia_Banderas",
-						"America/Cancun",
-						"America/Chihuahua",
-						"America/Hermosillo",
-						"America/Mazatlan",
-						"America/Merida",
-						"America/Mexico_City",
-						"America/Monterrey",
+						"America/Bahia_Banderas", // 84
+						"America/Cancun", // 85
+						"America/Chihuahua", // 86
+						"America/Hermosillo", // 87
+						"America/Mazatlan", // 88
+						"America/Merida", // 89
+						"America/Mexico_City", // 90
+						"America/Monterrey", // 91
 						"America/Ojinaga",
 						"America/Ciudad_Juarez",
 						"America/Matamoros",
@@ -554,6 +554,38 @@ time_t getDateTime_Epoch(char* timezone) {
 		// Pacific/Tongatapu
 		case 83:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Bahia_Banderas
+		case 84:
+			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Cancun
+		case 85:
+			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Chihuahua
+		case 86:
+			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Hermosillo
+		case 87:
+			tmz_now = utc_now + (-7 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Mazatlan
+		case 88:
+			tmz_now = utc_now + (-7 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Merida
+		case 89:
+			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Mexico_City
+		case 90:
+			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Monterrey
+		case 91:
+			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// No available timezone
 		default:
