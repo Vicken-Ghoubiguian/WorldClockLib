@@ -8,7 +8,7 @@
 
 int getIndexFromTzArray(char* timezone)
 {
-	char* tzArray[] = {	"UTC", // 0
+	char* tzArray[] = {	"Etc/UTC", // 0
 
 						// CI, BF, GH, GM, GN, IS, ML, MR, SH, SL, SN, TG
 						"Africa/Abidjan", // 1
