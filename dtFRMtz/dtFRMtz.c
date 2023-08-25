@@ -191,7 +191,11 @@ int getIndexFromTzArray(char* timezone)
 						"America/Mazatlan",
 						"America/Merida",
 						"America/Mexico_City",
-						"America/Monterrey"
+						"America/Monterrey",
+						"America/Ojinaga",
+						"America/Ciudad_Juarez",
+						"America/Matamoros",
+						"America/Tijuana"
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
