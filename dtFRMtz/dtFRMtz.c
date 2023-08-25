@@ -110,78 +110,78 @@ int getIndexFromTzArray(char* timezone)
 						"Europe/Ulyanovsk", // 57
 
 						// WS
-						"Pacific/Apia",
+						"Pacific/Apia", // 58
 
 						// PG
-						"Pacific/Bougainville",
+						"Pacific/Bougainville", // 59
 
 						// VU
-						"Pacific/Efate",
+						"Pacific/Efate", // 60
 
 						// TK
-						"Pacific/Fakaofo",
+						"Pacific/Fakaofo", // 61
 
 						// FJ
-						"Pacific/Fiji",
+						"Pacific/Fiji", // 62
 
 						// EC
-						"Pacific/Galapagos",
+						"Pacific/Galapagos", // 63
 
 						// PF
-						"Pacific/Gambier",
+						"Pacific/Gambier", // 64
 
 						// SB, FM
-						"Pacific/Guadalcanal",
+						"Pacific/Guadalcanal", // 65
 
 						// GU, MP
-						"Pacific/Guam",
+						"Pacific/Guam", // 66
 
 						// US
-						"Pacific/Honolulu",
+						"Pacific/Honolulu", // 67
 
 						// KI
-						"Pacific/Kanton",
-						"Pacific/Kiritimati",
+						"Pacific/Kanton", // 68
+						"Pacific/Kiritimati", // 69
 
 						// FM
-						"Pacific/Kosrae",
+						"Pacific/Kosrae", // 70
 
 						// MH
-						"Pacific/Kwajalein",
+						"Pacific/Kwajalein", // 71
 
 						// PF
-						"Pacific/Marquesas",
-						"Pacific/Tahiti",
+						"Pacific/Marquesas", // 72
+						"Pacific/Tahiti", // 73
 
 						// NR
-						"Pacific/Nauru",
+						"Pacific/Nauru", // 74
 
 						// NU
-						"Pacific/Niue",
+						"Pacific/Niue", // 75
 
 						// NC
-						"Pacific/Noumea",
+						"Pacific/Noumea", // 76
 
 						// AS, UM
-						"Pacific/Pago_Pago",
+						"Pacific/Pago_Pago", // 77
 
 						// PW
-						"Pacific/Palau",
+						"Pacific/Palau", // 78
 
 						// PN
-						"Pacific/Pitcairn",
+						"Pacific/Pitcairn", // 79
 
 						// PG, AQ, FM
-						"Pacific/Port_Moresby",
+						"Pacific/Port_Moresby", // 80
 
 						// CK
-						"Pacific/Rarotonga",
+						"Pacific/Rarotonga", // 81
 
 						// KI, MH, TV, UM, WF
-						"Pacific/Tarawa",
+						"Pacific/Tarawa", // 82
 
 						// TO
-						"Pacific/Tongatapu",
+						"Pacific/Tongatapu", // 83
 
 						// MX
 						"America/Bahia_Banderas",
