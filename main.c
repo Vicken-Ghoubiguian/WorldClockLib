@@ -14,7 +14,7 @@ int main() {
 
 	printf("%s", tz);
 
-	struct tm *tmGetDateTime = getDateTime_Tm("Pacific/Marquesas");
+	struct tm *tmGetDateTime = getDateTime_Tm("America/Mexico_City");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
 
 	free(tz);
