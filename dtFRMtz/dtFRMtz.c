@@ -207,13 +207,13 @@ int getIndexFromTzArray(char* timezone)
 						"Antarctica/Troll", // 102
 
 						// CV
-						"Atlantic/Cape_Verde",
+						"Atlantic/Cape_Verde", // 103
 
 						// GS
-						"Atlantic/South_Georgia",
+						"Atlantic/South_Georgia", // 104
 
 						//
-						"Atlantic/Stanley",
+						"Atlantic/Stanley", // 105
 
 						// AU
 						"Australia/Brisbane",
@@ -639,6 +639,21 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Antarctica/Rothera
 		case 100:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+
+		//
+
+		// Atlantic/Cape_Verde
+		case 103:
+			tmz_now = utc_now + (-1 * NB_SECONDS_IN_HOURS);
+			break;
+		// Atlantic/South_Georgia
+		case 104:
+			tmz_now = utc_now + (-2 * NB_SECONDS_IN_HOURS);
+			break;
+		// Atlantic/Stanley
+		case 105:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// No available timezone
