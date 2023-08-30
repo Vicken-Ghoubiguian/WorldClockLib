@@ -206,6 +206,15 @@ int getIndexFromTzArray(char* timezone)
 						"Antarctica/Macquarie", // 101
 						"Antarctica/Troll", // 102
 
+						// CV
+						"Atlantic/Cape_Verde",
+
+						// GS
+						"Atlantic/South_Georgia",
+
+						//
+						"Atlantic/Stanley",
+
 						// AU
 						"Australia/Brisbane",
 						"Australia/Darwin",
