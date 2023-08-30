@@ -216,17 +216,17 @@ int getIndexFromTzArray(char* timezone)
 						"Atlantic/Stanley", // 105
 
 						// AU
-						"Australia/Brisbane",
-						"Australia/Darwin",
-						"Australia/Eucla",
-						"Australia/Lindeman",
-						"Australia/Perth",
-						"Australia/Sydney",
-						"Australia/Melbourne",
-						"Australia/Lord_Howe",
-						"Australia/Hobart",
-						"Australia/Broken_Hill",
-						"Australia/Adelaide"
+						"Australia/Brisbane", // 106
+						"Australia/Darwin", // 107
+						"Australia/Eucla", // 108
+						"Australia/Lindeman", // 109
+						"Australia/Perth", // 110
+						"Australia/Sydney", // 111
+						"Australia/Melbourne", // 112
+						"Australia/Lord_Howe", // 113
+						"Australia/Hobart", // 114
+						"Australia/Broken_Hill", // 115
+						"Australia/Adelaide" // 116
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
