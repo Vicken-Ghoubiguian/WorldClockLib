@@ -596,6 +596,26 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 91:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
+		// Antarctica/Casey
+		case 96:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Antarctica/Davis
+		case 97:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Antarctica/Mawson
+		case 98:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
+			break;
+		// Antarctica/Palmer
+		case 99:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Antarctica/Rothera
+		case 100:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
 		// No available timezone
 		default:
 			tmz_now = -1;
