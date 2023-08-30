@@ -202,7 +202,9 @@ int getIndexFromTzArray(char* timezone)
 						"Antarctica/Davis", // 97
 						"Antarctica/Mawson", // 98
 						"Antarctica/Palmer", // 99
-						"Antarctica/Rothera" // 100
+						"Antarctica/Rothera", // 100
+						"Antarctica/Macquarie", // 101
+						"Antarctica/Troll" // 102
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
