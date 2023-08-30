@@ -204,7 +204,20 @@ int getIndexFromTzArray(char* timezone)
 						"Antarctica/Palmer", // 99
 						"Antarctica/Rothera", // 100
 						"Antarctica/Macquarie", // 101
-						"Antarctica/Troll" // 102
+						"Antarctica/Troll", // 102
+
+						// AU
+						"Australia/Brisbane",
+						"Australia/Darwin",
+						"Australia/Eucla",
+						"Australia/Lindeman",
+						"Australia/Perth",
+						"Australia/Sydney",
+						"Australia/Melbourne",
+						"Australia/Lord_Howe",
+						"Australia/Hobart",
+						"Australia/Broken_Hill",
+						"Australia/Adelaide"
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -596,6 +609,9 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 91:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
+
+		//
+
 		// Antarctica/Casey
 		case 96:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
