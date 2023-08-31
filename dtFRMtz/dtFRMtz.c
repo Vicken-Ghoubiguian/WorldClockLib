@@ -656,6 +656,26 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 105:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
+		// Australia/Brisbane
+		case 106:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Australia/Darwin
+		case 107:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Australia/Eucla
+		case 108:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS + 45 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Australia/Lindeman
+		case 109:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Australia/Perth
+		case 110:
+			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
+			break;
 		// No available timezone
 		default:
 			tmz_now = -1;
