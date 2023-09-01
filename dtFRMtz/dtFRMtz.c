@@ -226,7 +226,16 @@ int getIndexFromTzArray(char* timezone)
 						"Australia/Lord_Howe", // 113
 						"Australia/Hobart", // 114
 						"Australia/Broken_Hill", // 115
-						"Australia/Adelaide" // 116
+						"Australia/Adelaide", // 116
+
+						// MM, CC
+						"Asia/Yangon", // 117
+
+						// TH, CX, KH, LA, VN
+						"Asia/Bangkok", // 118
+
+						// KG
+						"Asia/Bishkek" // 119
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -679,6 +688,18 @@ time_t getDateTime_Epoch(char* timezone) {
 
 		//
 
+		// Asia/Yangon
+		case 117:
+			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Asia/Bangkok
+		case 118:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Bishkek
+		case 119:
+			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
+			break;
 		// No available timezone
 		default:
 			tmz_now = -1;
