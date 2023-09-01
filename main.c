@@ -3,7 +3,7 @@
 #include "./dtFRMtz/dtFRMtz.h"
 
 int main() {
-	
+
 	char* tz = malloc(30);
 	printf("Veuillez saisir le timezone que vous voulez : ");
 	scanf("%s", tz);
@@ -11,9 +11,11 @@ int main() {
 
 	printf("%s", tz);
 
-	/*time_t timestampGetDateTime = getDateTime_Epoch("Asia/Colombo");
-	printf("Current UTC time is %s\n", ctime(&timestampGetDateTime));*/
+	//
+	time_t timestampGetDateTime = getDateTime_Epoch("Asia/Colombo");
+	printf("Current UTC time is %ld\n", timestampGetDateTime);
 
+	//
 	struct tm *tmGetDateTime = getDateTime_Tm("Asia/Colombo");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
 
