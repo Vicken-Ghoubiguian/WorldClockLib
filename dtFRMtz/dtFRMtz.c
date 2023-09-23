@@ -241,7 +241,43 @@ int getIndexFromTzArray(char* timezone)
 						"Asia/Choibalsan", // 120
 
 						// LK
-						"Asia/Colombo" // 121
+						"Asia/Colombo", // 121
+
+						// SY
+						"Asia/Damascus", // 122
+
+						// BD
+						"Asia/Dhaka", // 123
+
+						// TL
+						"Asia/Dili", // 124
+
+						// AE, OM, RE, SC, TF
+						"Asia/Dubai", // 125
+
+						// TJ
+						"Asia/Dushanbe", // 126
+
+						// CY
+						"Asia/Famagusta", // 127
+
+						// PS
+						"Asia/Gaza", // 128
+
+						// PS
+						"Asia/Hebron", // 129
+
+						// VN
+						"Asia/Ho_Chi_Minh", // 130
+
+						// HK
+						"Asia/Hong_Kong", // 131
+
+						// ID
+						"Asia/Jakarta", // 132
+
+						// ID
+						"Asia/Jayapura" // 133
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
