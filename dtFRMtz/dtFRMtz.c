@@ -277,7 +277,13 @@ int getIndexFromTzArray(char* timezone)
 						"Asia/Jakarta", // 132
 
 						// ID
-						"Asia/Jayapura" // 133
+						"Asia/Jayapura", // 133
+
+						// AF
+						"Asia/Kabul", // 134
+
+						// PK
+						"Asia/Karachi" // 135
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -788,6 +794,14 @@ time_t getDateTime_Epoch(char* timezone) {
 		// Asia/Jayapura
 		case 133:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Kabul
+		case 134:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Asia/Karachi
+		case 135:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// No available timezone
 		default:
