@@ -798,9 +798,14 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 133:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
-
-		//
-		
+		// Asia/Makassar
+		case 134:
+			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Pontianak
+		case 135:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
 		// Asia/Kabul
 		case 136:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
