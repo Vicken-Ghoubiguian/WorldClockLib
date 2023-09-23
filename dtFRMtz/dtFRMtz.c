@@ -298,7 +298,10 @@ int getIndexFromTzArray(char* timezone)
 						"Asia/Atyrau", // 143
 						"Asia/Oral", // 144
 						"Asia/Qostanay", // 145
-						"Asia/Qyzylorda" // 146
+						"Asia/Qyzylorda", // 146
+
+						// PH
+						"Asia/Manila" // 147
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -861,6 +864,10 @@ time_t getDateTime_Epoch(char* timezone) {
 		// Asia/Qyzylorda
 		case 146:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Manila
+		case 147:
+			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
