@@ -289,7 +289,16 @@ int getIndexFromTzArray(char* timezone)
 						"Asia/Kathmandu", // 138
 
 						// QA, BH
-						"Asia/Qatar" // 139
+						"Asia/Qatar", // 139
+
+						// KZ
+						"Asia/Almaty", // 140
+						"Asia/Aqtau", // 141
+						"Asia/Aqtobe", // 142
+						"Asia/Atyrau", // 143
+						"Asia/Oral", // 144
+						"Asia/Qostanay", // 145
+						"Asia/Qyzylorda" // 146
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
