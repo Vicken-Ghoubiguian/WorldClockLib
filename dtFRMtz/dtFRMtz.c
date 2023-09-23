@@ -275,8 +275,6 @@ int getIndexFromTzArray(char* timezone)
 
 						// ID
 						"Asia/Jakarta", // 132
-
-						// ID
 						"Asia/Jayapura", // 133
 
 						// AF
