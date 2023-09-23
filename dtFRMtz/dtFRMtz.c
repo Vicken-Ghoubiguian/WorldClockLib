@@ -862,6 +862,9 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 146:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
+
+		//
+
 		// No available timezone
 		default:
 			tmz_now = -1;
