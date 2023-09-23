@@ -750,6 +750,45 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 121:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
+		// Asia/Damascus
+		case 122:
+			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Dhaka
+		case 123:
+			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Dili
+		case 124:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Dubai
+		case 125:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Dushanbe
+		case 126:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
+			break;
+
+		//
+
+		// Asia/Ho_Chi_Minh
+		case 130:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Hong_Kong
+		case 131:
+			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Jakarta
+		case 132:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Jayapura
+		case 133:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
 		// No available timezone
 		default:
 			tmz_now = -1;
