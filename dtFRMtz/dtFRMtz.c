@@ -240,6 +240,7 @@ int getIndexFromTzArray(char* timezone)
 						// MN
 						"Asia/Choibalsan", // 120
 						"Asia/Ulaanbaatar", // 121
+						//"Asia/Hovd", // 122
 
 						// LK
 						"Asia/Colombo", // 122
