@@ -239,91 +239,92 @@ int getIndexFromTzArray(char* timezone)
 
 						// MN
 						"Asia/Choibalsan", // 120
+						"Asia/Ulaanbaatar", // 121
 
 						// LK
-						"Asia/Colombo", // 121
+						"Asia/Colombo", // 122
 
 						// SY
-						"Asia/Damascus", // 122
+						"Asia/Damascus", // 123
 
 						// BD
-						"Asia/Dhaka", // 123
+						"Asia/Dhaka", // 124
 
 						// TL
-						"Asia/Dili", // 124
+						"Asia/Dili", // 125
 
 						// AE, OM, RE, SC, TF
-						"Asia/Dubai", // 125
+						"Asia/Dubai", // 126
 
 						// TJ
-						"Asia/Dushanbe", // 126
+						"Asia/Dushanbe", // 127
 
 						// CY
-						"Asia/Famagusta", // 127
+						"Asia/Famagusta", // 128
 
 						// PS
-						"Asia/Gaza", // 128
+						"Asia/Gaza", // 129
 
 						// PS
-						"Asia/Hebron", // 129
+						"Asia/Hebron", // 130
 
 						// VN
-						"Asia/Ho_Chi_Minh", // 130
+						"Asia/Ho_Chi_Minh", // 131
 
 						// HK
-						"Asia/Hong_Kong", // 131
+						"Asia/Hong_Kong", // 132
 
 						// ID
-						"Asia/Jakarta", // 132
-						"Asia/Jayapura", // 133
-						"Asia/Makassar", // 134
-						"Asia/Pontianak", // 135
+						"Asia/Jakarta", // 133
+						"Asia/Jayapura", // 134
+						"Asia/Makassar", // 135
+						"Asia/Pontianak", // 136
 
 						// AF
-						"Asia/Kabul", // 136
+						"Asia/Kabul", // 137
 
 						// PK
-						"Asia/Karachi", // 137
+						"Asia/Karachi", // 138
 
 						// NP
-						"Asia/Kathmandu", // 138
+						"Asia/Kathmandu", // 139
 
 						// QA, BH
-						"Asia/Qatar", // 139
+						"Asia/Qatar", // 140
 
 						// KZ
-						"Asia/Almaty", // 140
-						"Asia/Aqtau", // 141
-						"Asia/Aqtobe", // 142
-						"Asia/Atyrau", // 143
-						"Asia/Oral", // 144
-						"Asia/Qostanay", // 145
-						"Asia/Qyzylorda", // 146
+						"Asia/Almaty", // 141
+						"Asia/Aqtau", // 142
+						"Asia/Aqtobe", // 143
+						"Asia/Atyrau", // 144
+						"Asia/Oral", // 145
+						"Asia/Qostanay", // 146
+						"Asia/Qyzylorda", // 147
 
 						// PH
-						"Asia/Manila", // 147
+						"Asia/Manila", // 148
 
 						// MO
-						"Asia/Macau", // 148
+						"Asia/Macau", // 149
 
 						// SA, AQ, KW, YE
-						"Asia/Riyadh", // 149
+						"Asia/Riyadh", // 150
 
 						// UZ
-						"Asia/Samarkand", // 150
-						"Asia/Tashkent", // 151
+						"Asia/Samarkand", // 151
+						"Asia/Tashkent", // 152
 
 						// GE
-						"Asia/Tbilisi", // 152
+						"Asia/Tbilisi", // 153
 
 						// IR
-						"Asia/Tehran", // 153
+						"Asia/Tehran", // 154
 
 						// BT
-						"Asia/Thimphu", // 154
+						"Asia/Thimphu", // 155
 
 						// JP
-						"Asia/Tokyo" // 155
+						"Asia/Tokyo" // 156
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -793,106 +794,106 @@ time_t getDateTime_Epoch(char* timezone) {
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Colombo
-		case 121:
+		case 122:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Damascus
-		case 122:
+		case 123:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dhaka
-		case 123:
+		case 124:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dili
-		case 124:
+		case 125:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dubai
-		case 125:
+		case 126:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dushanbe
-		case 126:
+		case 127:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Asia/Ho_Chi_Minh
-		case 130:
+		case 131:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Hong_Kong
-		case 131:
+		case 132:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Jakarta
-		case 132:
+		case 133:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Jayapura
-		case 133:
+		case 134:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Makassar
-		case 134:
+		case 135:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Pontianak
-		case 135:
+		case 136:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kabul
-		case 136:
+		case 137:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Karachi
-		case 137:
+		case 138:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kathmandu
-		case 138:
+		case 139:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 45 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Qatar
-		case 139:
+		case 140:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Almaty
-		case 140:
+		case 141:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Aqtau
-		case 141:
-			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Aqtobe
 		case 142:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
-		// Asia/Atyrau
+		// Asia/Aqtobe
 		case 143:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
-		// Asia/Oral
+		// Asia/Atyrau
 		case 144:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
-		// Asia/Qostanay
+		// Asia/Oral
 		case 145:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Qostanay
+		case 146:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Qyzylorda
-		case 146:
+		case 147:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Manila
-		case 147:
+		case 148:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Macau
-		case 148:
+		case 149:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 
