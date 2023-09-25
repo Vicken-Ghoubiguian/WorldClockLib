@@ -960,6 +960,14 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 160:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
+		// America/Belize
+		case 161:
+			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Bogota
+		case 162:
+			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
+			break;
 
 		//
 
