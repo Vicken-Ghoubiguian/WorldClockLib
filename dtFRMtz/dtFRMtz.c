@@ -340,7 +340,10 @@ int getIndexFromTzArray(char* timezone)
 						"America/Belize", // 161
 
 						// CO
-						"America/Bogota" // 162
+						"America/Bogota", // 162
+
+						// VE
+						"America/Caracas" // 163
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
@@ -967,6 +970,10 @@ time_t getDateTime_Epoch(char* timezone) {
 		// America/Bogota
 		case 162:
 			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Caracas
+		case 163:
+			tmz_now = utc_now + (-4 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
