@@ -334,7 +334,13 @@ int getIndexFromTzArray(char* timezone)
 						"Europe/Istanbul", // 159
 
 						// BY
-						"Europe/Minsk" // 160
+						"Europe/Minsk", // 160
+
+						// BZ
+						"America/Belize", // 161
+
+						// CO
+						"America/Bogota" // 162
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
