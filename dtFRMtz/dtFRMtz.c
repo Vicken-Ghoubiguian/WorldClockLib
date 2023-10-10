@@ -67,6 +67,21 @@ int getIndexFromTzArray(char* timezone)
 
 						// BR
 						"America/Araguaina", // 20
+						// "America/Bahia", // 21
+						// "America/Belem", // 22
+						// "America/Boa_Vista", // 23
+						// "America/Campo_Grande", // 24
+						// "America/Cuiaba", // 25
+						// "America/Eirunepe", // 26
+						// "America/Fortaleza", // 27
+						// "America/Maceio", // 28
+						// "America/Manaus", // 29
+						// "America/Noronha", // 30
+						// "America/Porto_Velho", // 31
+						// "America/Recife", // 32
+						// "America/Rio_Branco", // 33
+						// "America/Santarem", // 34
+						// "America/Sao_Paulo", // 35
 
 						// AR
 						"America/Argentina/Buenos_Aires", // 21
