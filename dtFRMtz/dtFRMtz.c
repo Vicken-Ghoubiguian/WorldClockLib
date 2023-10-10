@@ -343,7 +343,15 @@ int getIndexFromTzArray(char* timezone)
 						"America/Bogota", // 162
 
 						// VE
-						"America/Caracas" // 163
+						"America/Caracas", // 163
+
+						// GF
+						"America/Cayenne", // 164
+
+						// CR
+						"America/Costa_Rica" // 165
+
+						// 
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
