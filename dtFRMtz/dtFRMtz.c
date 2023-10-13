@@ -84,287 +84,287 @@ int getIndexFromTzArray(char* timezone)
 						// "America/Sao_Paulo", // 35
 
 						// AR
-						"America/Argentina/Buenos_Aires", // 21
-						"America/Argentina/Catamarca", // 22
-						"America/Argentina/Cordoba", // 23
-						"America/Argentina/Jujuy", // 24
-						"America/Argentina/La_Rioja", // 25
-						"America/Argentina/Mendoza", // 26
-						"America/Argentina/Rio_Gallegos", // 27
-						"America/Argentina/Salta", //28
-						"America/Argentina/San_Juan", // 29
-						"America/Argentina/San_Luis", // 30
-						"America/Argentina/Tucuman", // 31
-						"America/Argentina/Ushuaia", // 32
+						"America/Argentina/Buenos_Aires", // 36
+						"America/Argentina/Catamarca", // 37
+						"America/Argentina/Cordoba", // 38
+						"America/Argentina/Jujuy", // 39
+						"America/Argentina/La_Rioja", // 40
+						"America/Argentina/Mendoza", // 41
+						"America/Argentina/Rio_Gallegos", // 42
+						"America/Argentina/Salta", // 43
+						"America/Argentina/San_Juan", // 44
+						"America/Argentina/San_Luis", // 45
+						"America/Argentina/Tucuman", // 46
+						"America/Argentina/Ushuaia", // 47
 
 						// RU
-						"Europe/Moscow", // 33
-						"Asia/Anadyr", // 34
-						"Asia/Barnaul", // 35
-						"Asia/Chita", // 36
-						"Asia/Irkutsk", // 37
-						"Asia/Kamchatka", // 38
-						"Asia/Khandyga", // 39
-						"Asia/Krasnoyarsk", // 40
-						"Asia/Magadan", // 41
-						"Asia/Novokuznetsk", // 42
-						"Asia/Novosibirsk", // 43
-						"Asia/Omsk", // 44
-						"Asia/Sakhalin", // 45
-						"Asia/Srednekolymsk", // 46
-						"Asia/Tomsk", // 47
-						"Asia/Ust-Nera", // 48
-						"Asia/Vladivostok", // 49
-						"Asia/Yakutsk", // 50
-						"Asia/Yekaterinburg", // 51
-						"Europe/Kaliningrad", // 52
-						"Europe/Kirov", // 53
-						"Europe/Samara", // 54
-						"Europe/Saratov", // 55
-						"Europe/Simferopol", // 56
-						"Europe/Ulyanovsk", // 57
+						"Europe/Moscow", // 48
+						"Asia/Anadyr", // 49
+						"Asia/Barnaul", // 50
+						"Asia/Chita", // 51
+						"Asia/Irkutsk", // 52
+						"Asia/Kamchatka", // 53
+						"Asia/Khandyga", // 54
+						"Asia/Krasnoyarsk", // 55
+						"Asia/Magadan", // 56
+						"Asia/Novokuznetsk", // 57
+						"Asia/Novosibirsk", // 58
+						"Asia/Omsk", // 59
+						"Asia/Sakhalin", // 60
+						"Asia/Srednekolymsk", // 61
+						"Asia/Tomsk", // 62
+						"Asia/Ust-Nera", // 63
+						"Asia/Vladivostok", // 64
+						"Asia/Yakutsk", // 65
+						"Asia/Yekaterinburg", // 66
+						"Europe/Kaliningrad", // 67
+						"Europe/Kirov", // 68
+						"Europe/Samara", // 69
+						"Europe/Saratov", // 70
+						"Europe/Simferopol", // 71
+						"Europe/Ulyanovsk", // 72
 
 						// WS
-						"Pacific/Apia", // 58
+						"Pacific/Apia", // 73
 
 						// PG
-						"Pacific/Bougainville", // 59
+						"Pacific/Bougainville", // 74
 
 						// VU
-						"Pacific/Efate", // 60
+						"Pacific/Efate", // 75
 
 						// TK
-						"Pacific/Fakaofo", // 61
+						"Pacific/Fakaofo", // 76
 
 						// FJ
-						"Pacific/Fiji", // 62
+						"Pacific/Fiji", // 77
 
 						// EC
-						"Pacific/Galapagos", // 63
+						"Pacific/Galapagos", // 78
 
 						// PF
-						"Pacific/Gambier", // 64
+						"Pacific/Gambier", // 79
 
 						// SB, FM
-						"Pacific/Guadalcanal", // 65
+						"Pacific/Guadalcanal", // 80
 
 						// GU, MP
-						"Pacific/Guam", // 66
+						"Pacific/Guam", // 81
 
 						// US
-						"Pacific/Honolulu", // 67
+						"Pacific/Honolulu", // 82
 
 						// KI
-						"Pacific/Kanton", // 68
-						"Pacific/Kiritimati", // 69
+						"Pacific/Kanton", // 83
+						"Pacific/Kiritimati", // 84
 
 						// FM
-						"Pacific/Kosrae", // 70
+						"Pacific/Kosrae", // 85
 
 						// MH
-						"Pacific/Kwajalein", // 71
+						"Pacific/Kwajalein", // 86
 
 						// PF
-						"Pacific/Marquesas", // 72
-						"Pacific/Tahiti", // 73
+						"Pacific/Marquesas", // 87
+						"Pacific/Tahiti", // 88
 
 						// NR
-						"Pacific/Nauru", // 74
+						"Pacific/Nauru", // 89
 
 						// NU
-						"Pacific/Niue", // 75
+						"Pacific/Niue", // 90
 
 						// NC
-						"Pacific/Noumea", // 76
+						"Pacific/Noumea", // 91
 
 						// AS, UM
-						"Pacific/Pago_Pago", // 77
+						"Pacific/Pago_Pago", // 92
 
 						// PW
-						"Pacific/Palau", // 78
+						"Pacific/Palau", // 93
 
 						// PN
-						"Pacific/Pitcairn", // 79
+						"Pacific/Pitcairn", // 94
 
 						// PG, AQ, FM
-						"Pacific/Port_Moresby", // 80
+						"Pacific/Port_Moresby", // 95
 
 						// CK
-						"Pacific/Rarotonga", // 81
+						"Pacific/Rarotonga", // 96
 
 						// KI, MH, TV, UM, WF
-						"Pacific/Tarawa", // 82
+						"Pacific/Tarawa", // 97
 
 						// TO
-						"Pacific/Tongatapu", // 83
+						"Pacific/Tongatapu", // 98
 
 						// MX
-						"America/Bahia_Banderas", // 84
-						"America/Cancun", // 85
-						"America/Chihuahua", // 86
-						"America/Hermosillo", // 87
-						"America/Mazatlan", // 88
-						"America/Merida", // 89
-						"America/Mexico_City", // 90
-						"America/Monterrey", // 91
-						"America/Ojinaga", // 92
-						"America/Ciudad_Juarez", // 93
-						"America/Matamoros", // 94
-						"America/Tijuana", // 95
+						"America/Bahia_Banderas", // 99
+						"America/Cancun", // 100
+						"America/Chihuahua", // 101
+						"America/Hermosillo", // 102
+						"America/Mazatlan", // 103
+						"America/Merida", // 104
+						"America/Mexico_City", // 105
+						"America/Monterrey", // 106
+						"America/Ojinaga", // 107
+						"America/Ciudad_Juarez", // 108
+						"America/Matamoros", // 109
+						"America/Tijuana", // 110
 
 						// AQ
-						"Antarctica/Casey", // 96
-						"Antarctica/Davis", // 97
-						"Antarctica/Mawson", // 98
-						"Antarctica/Palmer", // 99
-						"Antarctica/Rothera", // 100
-						"Antarctica/Macquarie", // 101
-						"Antarctica/Troll", // 102
+						"Antarctica/Casey", // 111
+						"Antarctica/Davis", // 112
+						"Antarctica/Mawson", // 113
+						"Antarctica/Palmer", // 114
+						"Antarctica/Rothera", // 115
+						"Antarctica/Macquarie", // 116
+						"Antarctica/Troll", // 117
 
 						// CV
-						"Atlantic/Cape_Verde", // 103
+						"Atlantic/Cape_Verde", // 118
 
 						// GS
-						"Atlantic/South_Georgia", // 104
+						"Atlantic/South_Georgia", // 119
 
 						// FK
-						"Atlantic/Stanley", // 105
+						"Atlantic/Stanley", // 120
 
 						// AU
-						"Australia/Brisbane", // 106
-						"Australia/Darwin", // 107
-						"Australia/Eucla", // 108
-						"Australia/Lindeman", // 109
-						"Australia/Perth", // 110
-						"Australia/Sydney", // 111
-						"Australia/Melbourne", // 112
-						"Australia/Lord_Howe", // 113
-						"Australia/Hobart", // 114
-						"Australia/Broken_Hill", // 115
-						"Australia/Adelaide", // 116
+						"Australia/Brisbane", // 121
+						"Australia/Darwin", // 122
+						"Australia/Eucla", // 123
+						"Australia/Lindeman", // 124
+						"Australia/Perth", // 125
+						"Australia/Sydney", // 126
+						"Australia/Melbourne", // 127
+						"Australia/Lord_Howe", // 128
+						"Australia/Hobart", // 129
+						"Australia/Broken_Hill", // 130
+						"Australia/Adelaide", // 131
 
 						// MM, CC
-						"Asia/Yangon", // 117
+						"Asia/Yangon", // 132
 
 						// TH, CX, KH, LA, VN
-						"Asia/Bangkok", // 118
+						"Asia/Bangkok", // 133
 
 						// KG
-						"Asia/Bishkek", // 119
+						"Asia/Bishkek", // 134
 
 						// MN
-						"Asia/Choibalsan", // 120
-						"Asia/Ulaanbaatar", // 121
-						"Asia/Hovd", // 122
+						"Asia/Choibalsan", // 135
+						"Asia/Ulaanbaatar", // 136
+						"Asia/Hovd", // 137
 
 						// LK
-						"Asia/Colombo", // 123
+						"Asia/Colombo", // 138
 
 						// SY
-						"Asia/Damascus", // 124
+						"Asia/Damascus", // 139
 
 						// BD
-						"Asia/Dhaka", // 125
+						"Asia/Dhaka", // 140
 
 						// TL
-						"Asia/Dili", // 126
+						"Asia/Dili", // 141
 
 						// AE, OM, RE, SC, TF
-						"Asia/Dubai", // 127
+						"Asia/Dubai", // 142
 
 						// TJ
-						"Asia/Dushanbe", // 128
+						"Asia/Dushanbe", // 143
 
 						// CY
-						"Asia/Famagusta", // 129
+						"Asia/Famagusta", // 144
 
 						// PS
-						"Asia/Gaza", // 130
+						"Asia/Gaza", // 145
 
 						// PS
-						"Asia/Hebron", // 131
+						"Asia/Hebron", // 146
 
 						// VN
-						"Asia/Ho_Chi_Minh", // 132
+						"Asia/Ho_Chi_Minh", // 147
 
 						// HK
-						"Asia/Hong_Kong", // 133
+						"Asia/Hong_Kong", // 148
 
 						// ID
-						"Asia/Jakarta", // 134
-						"Asia/Jayapura", // 135
-						"Asia/Makassar", // 136
-						"Asia/Pontianak", // 137
+						"Asia/Jakarta", // 149
+						"Asia/Jayapura", // 150
+						"Asia/Makassar", // 151
+						"Asia/Pontianak", // 152
 
 						// AF
-						"Asia/Kabul", // 138
+						"Asia/Kabul", // 153
 
 						// PK
-						"Asia/Karachi", // 139
+						"Asia/Karachi", // 154
 
 						// NP
-						"Asia/Kathmandu", // 140
+						"Asia/Kathmandu", // 155
 
 						// QA, BH
-						"Asia/Qatar", // 141
+						"Asia/Qatar", // 156
 
 						// KZ
-						"Asia/Almaty", // 142
-						"Asia/Aqtau", // 143
-						"Asia/Aqtobe", // 144
-						"Asia/Atyrau", // 145
-						"Asia/Oral", // 146
-						"Asia/Qostanay", // 147
-						"Asia/Qyzylorda", // 148
+						"Asia/Almaty", // 157
+						"Asia/Aqtau", // 158
+						"Asia/Aqtobe", // 159
+						"Asia/Atyrau", // 160
+						"Asia/Oral", // 161
+						"Asia/Qostanay", // 162
+						"Asia/Qyzylorda", // 163
 
 						// PH
-						"Asia/Manila", // 149
+						"Asia/Manila", // 164
 
 						// MO
-						"Asia/Macau", // 150
+						"Asia/Macau", // 165
 
 						// SA, AQ, KW, YE
-						"Asia/Riyadh", // 151
+						"Asia/Riyadh", // 166
 
 						// UZ
-						"Asia/Samarkand", // 152
-						"Asia/Tashkent", // 153
+						"Asia/Samarkand", // 167
+						"Asia/Tashkent", // 168
 
 						// GE
-						"Asia/Tbilisi", // 154
+						"Asia/Tbilisi", // 169
 
 						// IR
-						"Asia/Tehran", // 155
+						"Asia/Tehran", // 170
 
 						// BT
-						"Asia/Thimphu", // 156
+						"Asia/Thimphu", // 171
 
 						// JP
-						"Asia/Tokyo", // 157
+						"Asia/Tokyo", // 172
 
 						// AM
-						"Asia/Yerevan", // 158
+						"Asia/Yerevan", // 173
 
 						// TR
-						"Europe/Istanbul", // 159
+						"Europe/Istanbul", // 174
 
 						// BY
-						"Europe/Minsk", // 160
+						"Europe/Minsk", // 175
 
 						// BZ
-						"America/Belize", // 161
+						"America/Belize", // 176
 
 						// CO
-						"America/Bogota", // 162
+						"America/Bogota", // 177
 
 						// VE
-						"America/Caracas", // 163
+						"America/Caracas", // 178
 
 						// GF
-						"America/Cayenne", // 164
+						"America/Cayenne", // 179
 
 						// CR
-						"America/Costa_Rica" // 165
+						"America/Costa_Rica" // 180
 
 						//
 					};
