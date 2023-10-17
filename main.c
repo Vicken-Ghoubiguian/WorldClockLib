@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "./dtFRMtz/dtFRMtz.h"
+#include "./WorldClockLib/dtFRMtz/dtFRMtz.h"
 
 int main() {
 
