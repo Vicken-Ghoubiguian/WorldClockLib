@@ -1,5 +1,9 @@
 # WorldClockLib
 
+## Contents
+
+## Introduction
+
 Below is the instruction to compile the library with the example program titled classic "main.c" :
 ```bash
 gcc main.c WorldClockLib/dtFRMtz/dtFRMtz.c -o main
