@@ -67,21 +67,21 @@ int getIndexFromTzArray(char* timezone)
 
 						// BR
 						"America/Araguaina", // 20
-						// "America/Bahia", // 21
-						// "America/Belem", // 22
-						// "America/Boa_Vista", // 23
-						// "America/Campo_Grande", // 24
-						// "America/Cuiaba", // 25
-						// "America/Eirunepe", // 26
-						// "America/Fortaleza", // 27
-						// "America/Maceio", // 28
-						// "America/Manaus", // 29
-						// "America/Noronha", // 30
-						// "America/Porto_Velho", // 31
-						// "America/Recife", // 32
-						// "America/Rio_Branco", // 33
-						// "America/Santarem", // 34
-						// "America/Sao_Paulo", // 35
+						"America/Bahia", // 21
+						"America/Belem", // 22
+						"America/Boa_Vista", // 23
+						"America/Campo_Grande", // 24
+						"America/Cuiaba", // 25
+						"America/Eirunepe", // 26
+						"America/Fortaleza", // 27
+						"America/Maceio", // 28
+						"America/Manaus", // 29
+						"America/Noronha", // 30
+						"America/Porto_Velho", // 31
+						"America/Recife", // 32
+						"America/Rio_Branco", // 33
+						"America/Santarem", // 34
+						"America/Sao_Paulo", // 35
 
 						// AR
 						"America/Argentina/Buenos_Aires", // 36
@@ -483,535 +483,535 @@ time_t getDateTime_Epoch(char* timezone) {
 		*/
 
 		// America/Argentina/Buenos_Aires
-		case 21:
+		case 36:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Catamarca
-		case 22:
+		case 37:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Cordoba
-		case 23:
+		case 38:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Jujuy
-		case 24:
+		case 39:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/La_Rioja
-		case 25:
+		case 40:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Mendoza
-		case 26:
+		case 41:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Rio_Gallegos
-		case 27:
+		case 42:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Salta
-		case 28:
+		case 43:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/San_Juan
-		case 29:
+		case 44:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/San_Luis
-		case 30:
+		case 45:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Tucuman
-		case 31:
+		case 46:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Argentina/Ushuaia
-		case 32:
+		case 47:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Moscow
-		case 33:
+		case 48:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Anadyr
-		case 34:
+		case 49:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Barnaul
-		case 35:
+		case 50:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Chita
-		case 36:
+		case 51:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Irkutsk
-		case 37:
+		case 52:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kamchatka
-		case 38:
+		case 53:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Khandyga
-		case 39:
+		case 54:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Krasnoyarsk
-		case 40:
+		case 55:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Magadan
-		case 41:
+		case 56:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Novokuznetsk
-		case 42:
+		case 57:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Novosibirsk
-		case 43:
+		case 58:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Omsk
-		case 44:
+		case 59:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Sakhalin
-		case 45:
-			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Srednekolymsk
-		case 46:
-			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Tomsk
-		case 47:
-			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Ust-Nera
-		case 48:
-			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Vladivostok
-		case 49:
-			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Yakutsk
-		case 50:
-			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
-			break;
-		// Asia/Yekaterinburg
-		case 51:
-			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Kaliningrad
-		case 52:
-			tmz_now = utc_now + (2 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Kirov
-		case 53:
-			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Samara
-		case 54:
-			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Saratov
-		case 55:
-			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Simferopol
-		case 56:
-			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
-			break;
-		// Europe/Ulyanovsk
-		case 57:
-			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Apia
-		case 58:
-			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Bougainville
-		case 59:
-			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Efate
 		case 60:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
-		// Pacific/Fakaofo
+		// Asia/Srednekolymsk
 		case 61:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Tomsk
+		case 62:
+			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Ust-Nera
+		case 63:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Vladivostok
+		case 64:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Yakutsk
+		case 65:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Yekaterinburg
+		case 66:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Kaliningrad
+		case 67:
+			tmz_now = utc_now + (2 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Kirov
+		case 68:
+			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Samara
+		case 69:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Saratov
+		case 70:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Simferopol
+		case 71:
+			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
+			break;
+		// Europe/Ulyanovsk
+		case 72:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Apia
+		case 73:
+			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Bougainville
+		case 74:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Efate
+		case 75:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Fakaofo
+		case 76:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Fiji
-		case 62:
+		case 77:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Galapagos
-		case 63:
+		case 78:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Gambier
-		case 64:
+		case 79:
 			tmz_now = utc_now + (-9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Guadalcanal
-		case 65:
+		case 80:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Guam
-		case 66:
+		case 81:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Honolulu
-		case 67:
+		case 82:
 			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kanton
-		case 68:
-			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Kiritimati
-		case 69:
-			tmz_now = utc_now + (14 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Kosrae
-		case 70:
-			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Kwajalein
-		case 71:
-			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Marquesas
-		case 72:
-			tmz_now = utc_now - (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
-			break;
-		// Pacific/Tahiti
-		case 73:
-			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Nauru
-		case 74:
-			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Niue
-		case 75:
-			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Noumea
-		case 76:
-			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Pago_Pago
-		case 77:
-			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Palau
-		case 78:
-			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Pitcairn
-		case 79:
-			tmz_now = utc_now + (-8 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Port_Moresby
-		case 80:
-			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Rarotonga
-		case 81:
-			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Tarawa
-		case 82:
-			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
-			break;
-		// Pacific/Tongatapu
 		case 83:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
-		// America/Bahia_Banderas
+		// Pacific/Kiritimati
 		case 84:
+			tmz_now = utc_now + (14 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Kosrae
+		case 85:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Kwajalein
+		case 86:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Marquesas
+		case 87:
+			tmz_now = utc_now - (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Pacific/Tahiti
+		case 88:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Nauru
+		case 89:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Niue
+		case 90:
+			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Noumea
+		case 91:
+			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Pago_Pago
+		case 92:
+			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Palau
+		case 93:
+			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Pitcairn
+		case 94:
+			tmz_now = utc_now + (-8 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Port_Moresby
+		case 95:
+			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Rarotonga
+		case 96:
+			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Tarawa
+		case 97:
+			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Tongatapu
+		case 98:
+			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Bahia_Banderas
+		case 99:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Cancun
-		case 85:
+		case 100:
 			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Chihuahua
-		case 86:
+		case 101:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Hermosillo
-		case 87:
+		case 102:
 			tmz_now = utc_now + (-7 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Mazatlan
-		case 88:
+		case 103:
 			tmz_now = utc_now + (-7 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Merida
-		case 89:
+		case 104:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Mexico_City
-		case 90:
+		case 105:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Monterrey
-		case 91:
+		case 106:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Antarctica/Casey
-		case 96:
+		case 111:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Davis
-		case 97:
+		case 112:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Mawson
-		case 98:
+		case 113:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Palmer
-		case 99:
+		case 114:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Rothera
-		case 100:
+		case 115:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Atlantic/Cape_Verde
-		case 103:
+		case 118:
 			tmz_now = utc_now + (-1 * NB_SECONDS_IN_HOURS);
 			break;
 		// Atlantic/South_Georgia
-		case 104:
+		case 119:
 			tmz_now = utc_now + (-2 * NB_SECONDS_IN_HOURS);
 			break;
 		// Atlantic/Stanley
-		case 105:
+		case 120:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Australia/Brisbane
-		case 106:
+		case 121:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Australia/Darwin
-		case 107:
+		case 122:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Australia/Eucla
-		case 108:
+		case 123:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS + 45 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Australia/Lindeman
-		case 109:
+		case 124:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Australia/Perth
-		case 110:
+		case 125:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Asia/Yangon
-		case 117:
+		case 132:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Bangkok
-		case 118:
+		case 133:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Bishkek
-		case 119:
+		case 134:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Choibalsan
-		case 120:
+		case 135:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Ulaanbaatar
-		case 121:
+		case 136:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Hovd
-		case 122:
+		case 137:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Colombo
-		case 123:
+		case 138:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Damascus
-		case 124:
+		case 139:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dhaka
-		case 125:
+		case 140:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dili
-		case 126:
+		case 141:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dubai
-		case 127:
+		case 142:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dushanbe
-		case 128:
+		case 143:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Asia/Ho_Chi_Minh
-		case 132:
+		case 147:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Hong_Kong
-		case 133:
+		case 148:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Jakarta
-		case 134:
+		case 149:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Jayapura
-		case 135:
+		case 150:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Makassar
-		case 136:
+		case 151:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Pontianak
-		case 137:
+		case 152:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kabul
-		case 138:
+		case 153:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Karachi
-		case 139:
+		case 154:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kathmandu
-		case 140:
+		case 155:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 45 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Qatar
-		case 141:
+		case 156:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Almaty
-		case 142:
+		case 157:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Aqtau
-		case 143:
+		case 158:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Aqtobe
-		case 144:
+		case 159:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Atyrau
-		case 145:
+		case 160:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Oral
-		case 146:
+		case 161:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Qostanay
-		case 147:
+		case 162:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Qyzylorda
-		case 148:
+		case 163:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Manila
-		case 149:
+		case 164:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Macau
-		case 150:
+		case 165:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Riyadh
-		case 151:
+		case 166:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Samarkand
-		case 152:
+		case 167:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tashkent
-		case 153:
+		case 168:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tbilisi
-		case 154:
+		case 169:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tehran
-		case 155:
+		case 170:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Thimphu
-		case 156:
+		case 171:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tokyo
-		case 157:
+		case 172:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Yerevan
-		case 158:
+		case 173:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Istanbul
-		case 159:
+		case 174:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Minsk
-		case 160:
+		case 175:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Belize
-		case 161:
+		case 176:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Bogota
-		case 162:
+		case 177:
 			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Caracas
-		case 163:
+		case 178:
 			tmz_now = utc_now + (-4 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Cayenne
-		case 164:
+		case 179:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Costa_Rica
-		case 165:
+		case 180:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 
