@@ -6,6 +6,7 @@
 gcc main.c dtFRMtz/dtFRMtz.c -o main
 ```
 
+Below is an example of a minimal C program to use this library :
 ```c
 #include <stdio.h>
 #include <stdlib.h>
