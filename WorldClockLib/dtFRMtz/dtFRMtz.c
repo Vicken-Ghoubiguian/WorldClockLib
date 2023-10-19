@@ -368,7 +368,13 @@ int getIndexFromTzArray(char* timezone)
 
 						// GL
 						"America/Danmarkshavn", // 181
-						"America/Nuuk" // 182
+						"America/Nuuk", // 182
+
+						// PA, CA, KY
+						"America/Panama", // 183
+
+						// SR
+						"America/Paramaribo" // 184
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
