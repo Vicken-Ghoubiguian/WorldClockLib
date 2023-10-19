@@ -374,7 +374,10 @@ int getIndexFromTzArray(char* timezone)
 						"America/Panama", // 183
 
 						// SR
-						"America/Paramaribo" // 184
+						"America/Paramaribo", // 184
+
+						// CL
+						"America/Punta_Arenas" // 185
 					};
      
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
