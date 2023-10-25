@@ -394,10 +394,15 @@ int getIndexFromTzArray(char* timezone)
 						// EG
 						"Africa/Cairo", // 192
 
+						// BO
+						"America/La_Paz", // 193
+
 						// CA
 
 						// US
-						"Pacific/Honolulu" // 193
+						"Pacific/Honolulu" // 194
+
+						//
 
 					};
     
@@ -1056,8 +1061,12 @@ time_t getDateTime_Epoch(char* timezone) {
 
 		//
 
-		// Pacific/Honolulu
+		// America/La_Paz
 		case 193:
+			tmz_now = utc_now + (-4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Pacific/Honolulu
+		case 194:
 			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
 			break;
 
