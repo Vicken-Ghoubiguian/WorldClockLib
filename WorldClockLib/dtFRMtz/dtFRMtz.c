@@ -6,8 +6,10 @@
 #define NB_SECONDS_IN_MINUTES 60
 #define __NULL ((void *)0)
 
+//
 int getIndexFromTzArray(char* timezone)
 {
+	//
 	char* tzArray[] = {	"Etc/UTC", // 0
 
 						// CI, BF, GH, GM, GN, IS, ML, MR, SH, SL, SN, TG
@@ -400,17 +402,28 @@ int getIndexFromTzArray(char* timezone)
 						// US
 
 					};
-     
+    
+	//
     int tzArrayLen = sizeof tzArray / sizeof tzArray[0];
+
+	//
     int index = -1;
-     
+    
+	//
     for (int i = 0; i < tzArrayLen; i++) {
+
+		//
         if (tzArray[i] == timezone) {
+
+			//
             index = i;
+
+			//
             break;
         }
     }
 
+	//
 	return index;
 }
 
