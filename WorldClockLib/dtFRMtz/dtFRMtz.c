@@ -153,253 +153,251 @@ int getIndexFromTzArray(char* timezone)
 						// GU, MP
 						"Pacific/Guam", // 81
 
-						// US
-						"Pacific/Honolulu", // 82
-
 						// KI
-						"Pacific/Kanton", // 83
-						"Pacific/Kiritimati", // 84
+						"Pacific/Kanton", // 82
+						"Pacific/Kiritimati", // 83
 
 						// FM
-						"Pacific/Kosrae", // 85
+						"Pacific/Kosrae", // 84
 
 						// MH
-						"Pacific/Kwajalein", // 86
+						"Pacific/Kwajalein", // 85
 
 						// PF
-						"Pacific/Marquesas", // 87
-						"Pacific/Tahiti", // 88
+						"Pacific/Marquesas", // 86
+						"Pacific/Tahiti", // 87
 
 						// NR
-						"Pacific/Nauru", // 89
+						"Pacific/Nauru", // 88
 
 						// NU
-						"Pacific/Niue", // 90
+						"Pacific/Niue", // 89
 
 						// NC
-						"Pacific/Noumea", // 91
+						"Pacific/Noumea", // 90
 
 						// AS, UM
-						"Pacific/Pago_Pago", // 92
+						"Pacific/Pago_Pago", // 91
 
 						// PW
-						"Pacific/Palau", // 93
+						"Pacific/Palau", // 92
 
 						// PN
-						"Pacific/Pitcairn", // 94
+						"Pacific/Pitcairn", // 93
 
 						// PG, AQ, FM
-						"Pacific/Port_Moresby", // 95
+						"Pacific/Port_Moresby", // 94
 
 						// CK
-						"Pacific/Rarotonga", // 96
+						"Pacific/Rarotonga", // 95
 
 						// KI, MH, TV, UM, WF
-						"Pacific/Tarawa", // 97
+						"Pacific/Tarawa", // 96
 
 						// TO
-						"Pacific/Tongatapu", // 98
+						"Pacific/Tongatapu", // 97
 
 						// MX
-						"America/Bahia_Banderas", // 99
-						"America/Cancun", // 100
-						"America/Chihuahua", // 101
-						"America/Hermosillo", // 102
-						"America/Mazatlan", // 103
-						"America/Merida", // 104
-						"America/Mexico_City", // 105
-						"America/Monterrey", // 106
-						"America/Ojinaga", // 107
-						"America/Ciudad_Juarez", // 108
-						"America/Matamoros", // 109
-						"America/Tijuana", // 110
+						"America/Bahia_Banderas", // 98
+						"America/Cancun", // 99
+						"America/Chihuahua", // 100
+						"America/Hermosillo", // 101
+						"America/Mazatlan", // 102
+						"America/Merida", // 103
+						"America/Mexico_City", // 104
+						"America/Monterrey", // 105
+						"America/Ojinaga", // 106
+						"America/Ciudad_Juarez", // 107
+						"America/Matamoros", // 108
+						"America/Tijuana", // 109
 
 						// AQ
-						"Antarctica/Casey", // 111
-						"Antarctica/Davis", // 112
-						"Antarctica/Mawson", // 113
-						"Antarctica/Palmer", // 114
-						"Antarctica/Rothera", // 115
-						"Antarctica/Macquarie", // 116
-						"Antarctica/Troll", // 117
+						"Antarctica/Casey", // 110
+						"Antarctica/Davis", // 111
+						"Antarctica/Mawson", // 112
+						"Antarctica/Palmer", // 113
+						"Antarctica/Rothera", // 114
+						"Antarctica/Macquarie", // 115
+						"Antarctica/Troll", // 116
 
 						// CV
-						"Atlantic/Cape_Verde", // 118
+						"Atlantic/Cape_Verde", // 117
 
 						// GS
-						"Atlantic/South_Georgia", // 119
+						"Atlantic/South_Georgia", // 118
 
 						// FK
-						"Atlantic/Stanley", // 120
+						"Atlantic/Stanley", // 119
 
 						// AU
-						"Australia/Brisbane", // 121
-						"Australia/Darwin", // 122
-						"Australia/Eucla", // 123
-						"Australia/Lindeman", // 124
-						"Australia/Perth", // 125
-						"Australia/Sydney", // 126
-						"Australia/Melbourne", // 127
-						"Australia/Lord_Howe", // 128
-						"Australia/Hobart", // 129
-						"Australia/Broken_Hill", // 130
-						"Australia/Adelaide", // 131
+						"Australia/Brisbane", // 120
+						"Australia/Darwin", // 121
+						"Australia/Eucla", // 122
+						"Australia/Lindeman", // 123
+						"Australia/Perth", // 124
+						"Australia/Sydney", // 125
+						"Australia/Melbourne", // 126
+						"Australia/Lord_Howe", // 127
+						"Australia/Hobart", // 128
+						"Australia/Broken_Hill", // 129
+						"Australia/Adelaide", // 130
 
 						// MM, CC
-						"Asia/Yangon", // 132
+						"Asia/Yangon", // 131
 
 						// TH, CX, KH, LA, VN
-						"Asia/Bangkok", // 133
+						"Asia/Bangkok", // 132
 
 						// KG
-						"Asia/Bishkek", // 134
+						"Asia/Bishkek", // 133
 
 						// MN
-						"Asia/Choibalsan", // 135
-						"Asia/Ulaanbaatar", // 136
-						"Asia/Hovd", // 137
+						"Asia/Choibalsan", // 134
+						"Asia/Ulaanbaatar", // 135
+						"Asia/Hovd", // 136
 
 						// LK
-						"Asia/Colombo", // 138
+						"Asia/Colombo", // 137
 
 						// SY
-						"Asia/Damascus", // 139
+						"Asia/Damascus", // 138
 
 						// BD
-						"Asia/Dhaka", // 140
+						"Asia/Dhaka", // 139
 
 						// TL
-						"Asia/Dili", // 141
+						"Asia/Dili", // 140
 
 						// AE, OM, RE, SC, TF
-						"Asia/Dubai", // 142
+						"Asia/Dubai", // 141
 
 						// TJ
-						"Asia/Dushanbe", // 143
+						"Asia/Dushanbe", // 142
 
 						// CY
-						"Asia/Famagusta", // 144
+						"Asia/Famagusta", // 143
 
 						// PS
-						"Asia/Gaza", // 145
+						"Asia/Gaza", // 144
 
 						// PS
-						"Asia/Hebron", // 146
+						"Asia/Hebron", // 145
 
 						// VN
-						"Asia/Ho_Chi_Minh", // 147
+						"Asia/Ho_Chi_Minh", // 146
 
 						// HK
-						"Asia/Hong_Kong", // 148
+						"Asia/Hong_Kong", // 147
 
 						// ID
-						"Asia/Jakarta", // 149
-						"Asia/Jayapura", // 150
-						"Asia/Makassar", // 151
-						"Asia/Pontianak", // 152
+						"Asia/Jakarta", // 148
+						"Asia/Jayapura", // 149
+						"Asia/Makassar", // 150
+						"Asia/Pontianak", // 151
 
 						// AF
-						"Asia/Kabul", // 153
+						"Asia/Kabul", // 152
 
 						// PK
-						"Asia/Karachi", // 154
+						"Asia/Karachi", // 153
 
 						// NP
-						"Asia/Kathmandu", // 155
+						"Asia/Kathmandu", // 154
 
 						// QA, BH
-						"Asia/Qatar", // 156
+						"Asia/Qatar", // 155
 
 						// KZ
-						"Asia/Almaty", // 157
-						"Asia/Aqtau", // 158
-						"Asia/Aqtobe", // 159
-						"Asia/Atyrau", // 160
-						"Asia/Oral", // 161
-						"Asia/Qostanay", // 162
-						"Asia/Qyzylorda", // 163
+						"Asia/Almaty", // 156
+						"Asia/Aqtau", // 157
+						"Asia/Aqtobe", // 158
+						"Asia/Atyrau", // 159
+						"Asia/Oral", // 160
+						"Asia/Qostanay", // 161
+						"Asia/Qyzylorda", // 162
 
 						// PH
-						"Asia/Manila", // 164
+						"Asia/Manila", // 163
 
 						// MO
-						"Asia/Macau", // 165
+						"Asia/Macau", // 164
 
 						// SA, AQ, KW, YE
-						"Asia/Riyadh", // 166
+						"Asia/Riyadh", // 165
 
 						// UZ
-						"Asia/Samarkand", // 167
-						"Asia/Tashkent", // 168
+						"Asia/Samarkand", // 166
+						"Asia/Tashkent", // 167
 
 						// GE
-						"Asia/Tbilisi", // 169
+						"Asia/Tbilisi", // 168
 
 						// IR
-						"Asia/Tehran", // 170
+						"Asia/Tehran", // 169
 
 						// BT
-						"Asia/Thimphu", // 171
+						"Asia/Thimphu", // 170
 
 						// JP
-						"Asia/Tokyo", // 172
+						"Asia/Tokyo", // 171
 
 						// AM
-						"Asia/Yerevan", // 173
+						"Asia/Yerevan", // 172
 
 						// TR
-						"Europe/Istanbul", // 174
+						"Europe/Istanbul", // 173
 
 						// BY
-						"Europe/Minsk", // 175
+						"Europe/Minsk", // 174
 
 						// BZ
-						"America/Belize", // 176
+						"America/Belize", // 175
 
 						// CO
-						"America/Bogota", // 177
+						"America/Bogota", // 176
 
 						// VE
-						"America/Caracas", // 178
+						"America/Caracas", // 177
 
 						// GF
-						"America/Cayenne", // 179
+						"America/Cayenne", // 178
 
 						// CR
-						"America/Costa_Rica", // 180
+						"America/Costa_Rica", // 179
 
 						// GL
-						"America/Danmarkshavn", // 181
-						"America/Nuuk", // 182
-						"America/Scoresbysund", // 183
-						"America/Thule", // 184
+						"America/Danmarkshavn", // 180
+						"America/Nuuk", // 181
+						"America/Scoresbysund", // 182
+						"America/Thule", // 183
 
 						// PA, CA, KY
-						"America/Panama", // 185
+						"America/Panama", // 184
 
 						// SR
-						"America/Paramaribo", // 186
+						"America/Paramaribo", // 185
 
 						// DO
-						"America/Santo_Domingo", // 187
+						"America/Santo_Domingo", // 186
 
 						// CL
-						"America/Punta_Arenas", // 188
-						"America/Santiago", // 189
-						"Pacific/Easter", // 190
+						"America/Punta_Arenas", // 187
+						"America/Santiago", // 188
+						"Pacific/Easter", // 189
 
 						// EH
-						"Africa/El_Aaiun", // 191
+						"Africa/El_Aaiun", // 190
 
 						// MA
-						"Africa/Casablanca", // 192
+						"Africa/Casablanca", // 191
 
 						// EG
-						"Africa/Cairo" // 193
+						"Africa/Cairo" // 192
 
 						// CA
 
 						// US
+						//"Pacific/Honolulu"
 
 					};
     
@@ -712,351 +710,351 @@ time_t getDateTime_Epoch(char* timezone) {
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Honolulu
-		case 82:
+		/*case 82:
 			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
-			break;
+			break;*/
 		// Pacific/Kanton
-		case 83:
+		case 82:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kiritimati
-		case 84:
+		case 83:
 			tmz_now = utc_now + (14 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kosrae
-		case 85:
+		case 84:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Kwajalein
-		case 86:
+		case 85:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Marquesas
-		case 87:
+		case 86:
 			tmz_now = utc_now - (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Pacific/Tahiti
-		case 88:
+		case 87:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Nauru
-		case 89:
+		case 88:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Niue
-		case 90:
+		case 89:
 			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Noumea
-		case 91:
+		case 90:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Pago_Pago
-		case 92:
+		case 91:
 			tmz_now = utc_now + (-11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Palau
-		case 93:
+		case 92:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Pitcairn
-		case 94:
+		case 93:
 			tmz_now = utc_now + (-8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Port_Moresby
-		case 95:
+		case 94:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Rarotonga
-		case 96:
+		case 95:
 			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Tarawa
-		case 97:
+		case 96:
 			tmz_now = utc_now + (12 * NB_SECONDS_IN_HOURS);
 			break;
 		// Pacific/Tongatapu
-		case 98:
+		case 97:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Bahia_Banderas
-		case 99:
+		case 98:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Cancun
-		case 100:
+		case 99:
 			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Chihuahua
-		case 101:
+		case 100:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Hermosillo
-		case 102:
+		case 101:
 			tmz_now = utc_now + (-7 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Mazatlan
-		case 103:
+		case 102:
 			tmz_now = utc_now + (-7 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Merida
-		case 104:
+		case 103:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Mexico_City
-		case 105:
+		case 104:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Monterrey
-		case 106:
+		case 105:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Antarctica/Casey
-		case 111:
+		case 110:
 			tmz_now = utc_now + (11 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Davis
-		case 112:
+		case 111:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Mawson
-		case 113:
+		case 112:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Palmer
-		case 114:
+		case 113:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Antarctica/Rothera
-		case 115:
+		case 114:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Atlantic/Cape_Verde
-		case 118:
+		case 117:
 			tmz_now = utc_now + (-1 * NB_SECONDS_IN_HOURS);
 			break;
 		// Atlantic/South_Georgia
-		case 119:
+		case 118:
 			tmz_now = utc_now + (-2 * NB_SECONDS_IN_HOURS);
 			break;
 		// Atlantic/Stanley
-		case 120:
+		case 119:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Australia/Brisbane
-		case 121:
+		case 120:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Australia/Darwin
-		case 122:
+		case 121:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Australia/Eucla
-		case 123:
+		case 122:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS + 45 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Australia/Lindeman
-		case 124:
+		case 123:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
 		// Australia/Perth
-		case 125:
+		case 124:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Asia/Yangon
-		case 132:
+		case 131:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Bangkok
-		case 133:
+		case 132:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Bishkek
-		case 134:
+		case 133:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Choibalsan
-		case 135:
+		case 134:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Ulaanbaatar
-		case 136:
+		case 135:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Hovd
-		case 137:
+		case 136:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Colombo
-		case 138:
+		case 137:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Damascus
-		case 139:
+		case 138:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dhaka
-		case 140:
+		case 139:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dili
-		case 141:
+		case 140:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dubai
-		case 142:
+		case 141:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Dushanbe
-		case 143:
+		case 142:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 
 		//
 
 		// Asia/Ho_Chi_Minh
-		case 147:
+		case 146:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Hong_Kong
-		case 148:
+		case 147:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Jakarta
-		case 149:
+		case 148:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Jayapura
-		case 150:
+		case 149:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Makassar
-		case 151:
+		case 150:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Pontianak
-		case 152:
+		case 151:
 			tmz_now = utc_now + (7 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kabul
-		case 153:
+		case 152:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Karachi
-		case 154:
+		case 153:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Kathmandu
-		case 155:
+		case 154:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 45 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Qatar
-		case 156:
+		case 155:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Almaty
-		case 157:
+		case 156:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Aqtau
-		case 158:
+		case 157:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Aqtobe
-		case 159:
+		case 158:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Atyrau
-		case 160:
+		case 159:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Oral
-		case 161:
+		case 160:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Qostanay
-		case 162:
+		case 161:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Qyzylorda
-		case 163:
+		case 162:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Manila
-		case 164:
+		case 163:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Macau
-		case 165:
+		case 164:
 			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Riyadh
-		case 166:
+		case 165:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Samarkand
-		case 167:
+		case 166:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tashkent
-		case 168:
+		case 167:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tbilisi
-		case 169:
+		case 168:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tehran
-		case 170:
+		case 169:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
 			break;
 		// Asia/Thimphu
-		case 171:
+		case 170:
 			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Tokyo
-		case 172:
+		case 171:
 			tmz_now = utc_now + (9 * NB_SECONDS_IN_HOURS);
 			break;
 		// Asia/Yerevan
-		case 173:
+		case 172:
 			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Istanbul
-		case 174:
+		case 173:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// Europe/Minsk
-		case 175:
+		case 174:
 			tmz_now = utc_now + (3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Belize
-		case 176:
+		case 175:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Bogota
-		case 177:
+		case 176:
 			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Caracas
-		case 178:
+		case 177:
 			tmz_now = utc_now + (-4 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Cayenne
-		case 179:
+		case 178:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
 		// America/Costa_Rica
-		case 180:
+		case 179:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
 
