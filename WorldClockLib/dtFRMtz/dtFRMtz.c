@@ -397,7 +397,7 @@ int getIndexFromTzArray(char* timezone)
 						// CA
 
 						// US
-						//"Pacific/Honolulu"
+						"Pacific/Honolulu" // 193
 
 					};
     
@@ -709,10 +709,6 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 81:
 			tmz_now = utc_now + (10 * NB_SECONDS_IN_HOURS);
 			break;
-		// Pacific/Honolulu
-		/*case 82:
-			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
-			break;*/
 		// Pacific/Kanton
 		case 82:
 			tmz_now = utc_now + (13 * NB_SECONDS_IN_HOURS);
@@ -1059,6 +1055,11 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 
 		//
+
+		// Pacific/Honolulu
+		case 193:
+			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
+			break;
 
 		//
 
