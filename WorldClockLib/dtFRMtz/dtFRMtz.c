@@ -395,7 +395,9 @@ int getIndexFromTzArray(char* timezone)
 						// EG
 						"Africa/Cairo" // 193
 
-						//
+						// CA
+
+						// US
 
 					};
      
