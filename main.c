@@ -14,11 +14,11 @@ int main() {
 	printf("%s", tz);
 
 	//
-	time_t timestampGetDateTime = getDateTime_Epoch("America/Fortaleza");
+	time_t timestampGetDateTime = getDateTime_Epoch("America/Noronha");
 	printf("Current UTC time is %ld\n", timestampGetDateTime);
 
 	//
-	struct tm *tmGetDateTime = getDateTime_Tm("America/Fortaleza");
+	struct tm *tmGetDateTime = getDateTime_Tm("America/Noronha");
 	printf("Current UTC time is %s\n", asctime(tmGetDateTime));
 
 	//
