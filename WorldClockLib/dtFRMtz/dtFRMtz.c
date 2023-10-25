@@ -550,6 +550,7 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 27:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
+		
 		//
 
 		// America/Noronha
