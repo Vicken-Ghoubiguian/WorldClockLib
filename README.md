@@ -6,14 +6,14 @@
 
 Below is the instruction to compile the library with the example program titled classic "main.c" :
 ```bash
-gcc main.c WorldClockLib/dtFRMtz/dtFRMtz.c -o main
+gcc main.c ../WorldClockLib/dtFRMtz/dtFRMtz.c -o main
 ```
 
-Below is an example of a minimal C program to use this library :
+Below is an example of a minimal C program to use this library available in `tests` :
 ```c
 #include <stdio.h>
 #include <stdlib.h>
-#include "./WorldClockLib/dtFRMtz/dtFRMtz.h"
+#include "../WorldClockLib/dtFRMtz/dtFRMtz.h"
 
 int main() {
 
