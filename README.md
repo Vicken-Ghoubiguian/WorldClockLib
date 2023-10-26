@@ -4,9 +4,9 @@
 
 ## Introduction
 
-Below is the instruction to compile the library with the example program titled classic `main.c` :
+Below is the instruction to compile the library with the example program titled classic `test_1.c` :
 ```bash
-gcc main.c ../WorldClockLib/dtFRMtz/dtFRMtz.c -o main
+gcc test_1.c ../WorldClockLib/dtFRMtz/dtFRMtz.c -o test_1
 ```
 
 Below is an example of a minimal C program to use this library available in `tests` :
