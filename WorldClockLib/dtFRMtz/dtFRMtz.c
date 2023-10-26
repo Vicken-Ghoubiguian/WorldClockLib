@@ -550,21 +550,38 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 27:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
 			break;
-
-		//
-
+		// America/Maceio
+		case 28:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Manaus
+		case 29:
+			tmz_now = utc_now + (-4 * NB_SECONDS_IN_HOURS);
+			break;
 		// America/Noronha
 		case 30:
 			tmz_now = utc_now + (-2 * NB_SECONDS_IN_HOURS);
 			break;
-
-		//
-		/*
-		
-		
-		
-		*/
-
+		// America/Porto_Velho
+		case 31:
+			tmz_now = utc_now + (-4 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Recife
+		case 32:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Rio_Branco
+		case 33:
+			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Santarem
+		case 34:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Sao_Paulo
+		case 35:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
 		// America/Argentina/Buenos_Aires
 		case 36:
 			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
