@@ -1143,6 +1143,29 @@ time_t getDateTime_Epoch(char* timezone) {
 
 		//
 
+		// Indian/Maldives
+		case 196:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
+			break;
+		// Indian/Mauritius
+		case 197:
+			tmz_now = utc_now + (4 * NB_SECONDS_IN_HOURS);
+			break;
+		// Indian/Chagos
+		case 198:
+			tmz_now = utc_now + (6 * NB_SECONDS_IN_HOURS);
+			break;
+		// Asia/Kolkata
+		case 199:
+			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS + 30 * NB_SECONDS_IN_MINUTES);
+			break;
+		// Asia/Kuching
+		case 200:
+			tmz_now = utc_now + (8 * NB_SECONDS_IN_HOURS);
+			break;
+
+		//
+
 		// No available timezone
 		default:
 			tmz_now = -1;
