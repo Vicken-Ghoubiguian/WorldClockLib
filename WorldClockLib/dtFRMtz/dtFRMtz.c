@@ -400,10 +400,19 @@ int getIndexFromTzArray(char* timezone)
 						// CA
 
 						// US
-						"Pacific/Honolulu" // 194
+						"Pacific/Honolulu", // 194
 
-						//
+						// NF
+						"Pacific/Norfolk", // 195
 
+						// MV, TF
+						"Indian/Maldives", // 196
+
+						// MU
+						"Indian/Mauritius", // 197
+
+						// IO
+						"Indian/Chagos" // 198
 					};
     
 	//
