@@ -1132,6 +1132,25 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 179:
 			tmz_now = utc_now + (-6 * NB_SECONDS_IN_HOURS);
 			break;
+		
+		//
+
+		// America/Panama
+		case 184:
+			tmz_now = utc_now + (-5 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Paramaribo
+		case 185:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Santo_Domingo
+		case 186:
+			tmz_now = utc_now + (-4 * NB_SECONDS_IN_HOURS);
+			break;
+		// America/Punta_Arenas
+		case 187:
+			tmz_now = utc_now + (-3 * NB_SECONDS_IN_HOURS);
+			break;
 
 		//
 
