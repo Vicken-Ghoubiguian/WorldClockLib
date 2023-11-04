@@ -1,6 +1,7 @@
 #include <string.h>
 #include <time.h>
 #include "dtFRMtz.h"
+#include "../dstCalculous/dstCalculous.h"
 
 #define NB_SECONDS_IN_HOURS 3600
 #define NB_SECONDS_IN_MINUTES 60
@@ -1140,9 +1141,10 @@ time_t getDateTime_Epoch(char* timezone) {
 		case 194:
 			tmz_now = utc_now + (-10 * NB_SECONDS_IN_HOURS);
 			break;
-
-		//
-
+		// Pacific/Norfolk
+		case 195:
+			tmz_now = /*utc_now + (11 * NB_SECONDS_IN_HOURS) +*/ first_sunday_in_april(utc_now, 3);
+			break;
 		// Indian/Maldives
 		case 196:
 			tmz_now = utc_now + (5 * NB_SECONDS_IN_HOURS);
