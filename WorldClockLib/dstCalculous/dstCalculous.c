@@ -64,3 +64,4 @@ time_t first_sunday_in_april(time_t today, int hour)
     //
     return date_timestamp;
 }
+

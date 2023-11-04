@@ -455,6 +455,8 @@ time_t getDateTime_Epoch(char* timezone) {
 	time_t tmz_now;
 	time_t utc_now = time(NULL);
 	int tzIndex = getIndexFromTzArray(timezone);
+	int hours;
+	int offset;
 
 	switch(tzIndex)
 	{
@@ -1143,7 +1145,19 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Pacific/Norfolk
 		case 195:
-			tmz_now = /*utc_now + (11 * NB_SECONDS_IN_HOURS) +*/ first_sunday_in_april(utc_now, 3);
+			/*
+				if(utc_now >= first_sunday_in_april(utc_now, 3) &&  <= utc_now)
+				{
+					offset = 0;
+				}
+				else
+				{
+					offset = 1;
+				}
+			*/
+			offset = 1;
+			hours = 11 + offset;
+			tmz_now = utc_now + (hours * NB_SECONDS_IN_HOURS);
 			break;
 		// Indian/Maldives
 		case 196:
