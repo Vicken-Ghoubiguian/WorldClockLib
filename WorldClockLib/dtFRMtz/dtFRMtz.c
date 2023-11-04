@@ -1146,7 +1146,7 @@ time_t getDateTime_Epoch(char* timezone) {
 		// Pacific/Norfolk
 		case 195:
 			/*
-				if(utc_now >= first_sunday_in_april(utc_now, 3) &&  <= utc_now)
+				if(utc_now + 12 >= first_sunday_in_april(utc_now, 2) &&  <= utc_now)
 				{
 					offset = 0;
 				}
