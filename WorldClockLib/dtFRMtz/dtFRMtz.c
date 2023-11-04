@@ -412,7 +412,17 @@ int getIndexFromTzArray(char* timezone)
 						"Indian/Mauritius", // 197
 
 						// IO
-						"Indian/Chagos" // 198
+						"Indian/Chagos", // 198
+
+						// IN
+						"Asia/Kolkata", // 199
+
+						// MY, BN
+						"Asia/Kuching", // 200
+
+						// NZ
+						"Pacific/Auckland", // 201
+						"Pacific/Chatham" // 202
 					};
     
 	//
