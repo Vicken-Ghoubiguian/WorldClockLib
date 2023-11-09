@@ -7,10 +7,13 @@
 int main() {
 
     //
-    
+    time_t utc_today = time(NULL);
 
     //
-    printf("");
+    struct tm *utc_date_tm = gmtime(&utc_today);
+
+    //
+    printf("%d\n", utc_date_tm->tm_year + 1900);
 
     //
     return 0;
