@@ -13,10 +13,10 @@ int main() {
     struct tm *utc_date_tm = gmtime(&utc_today);
 
     //
-    printf("Date de changement à l'heure d'hiver concernant l'Australie pour l'année %d\n", utc_date_tm->tm_year + 1900);
+    printf("Date of change to winter time for Australia at the year %d\n", utc_date_tm->tm_year + 1900);
 
     //
-    printf("Date de changement à l'heure d'été concernant l'Australie pour l'année %d\n", utc_date_tm->tm_year + 1900);
+    printf("Date of change to summer time for Australia at the year %d\n", utc_date_tm->tm_year + 1900);
 
     //
     return 0;
