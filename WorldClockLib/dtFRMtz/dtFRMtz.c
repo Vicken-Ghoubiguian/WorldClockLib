@@ -1164,6 +1164,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Pacific/Norfolk
 		case 195:
+			tmz_now = first_sunday_in_april(utc_now, 2);
 			/*
 				if(utc_now + 12 >= first_sunday_in_april(utc_now, 2) &&  <= utc_now)
 				{
@@ -1174,9 +1175,9 @@ time_t getDateTime_Epoch(char* timezone) {
 					offset = 1;
 				}
 			*/
-			offset = 1;
+			/*offset = 1;
 			hours = 11 + offset;
-			tmz_now = utc_now + (hours * NB_SECONDS_IN_HOURS);
+			tmz_now = utc_now + (hours * NB_SECONDS_IN_HOURS);*/
 			break;
 		// Indian/Maldives
 		case 196:
