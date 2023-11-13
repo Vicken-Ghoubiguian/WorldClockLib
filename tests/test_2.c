@@ -21,11 +21,11 @@ int main() {
     printf("%s", asctime(gmtime(&datetime_for_winter_in_australia)));
 
     //
-    printf("\n");
+    printf("Date of change to summer time for Australia at the year %d : \n", utc_date_tm->tm_year + 1900);
+    //
 
     //
-    printf("Date of change to summer time for Australia at the year %d\n", utc_date_tm->tm_year + 1900);
-    //
+    printf("\n");
 
     //
     return 0;
