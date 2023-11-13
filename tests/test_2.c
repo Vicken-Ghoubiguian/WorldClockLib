@@ -13,14 +13,15 @@ int main() {
     struct tm *utc_date_tm = gmtime(&utc_today);
 
     //
-    printf("Date of change to winter time for Australia at the year %d\n", utc_date_tm->tm_year + 1900);
+    printf("================== Australia ==================\n");
 
+    //
+    printf("Date of change to winter time for Australia at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t y = first_sunday_in_april(utc_today, 2);
-
     printf("%s", asctime(gmtime(&y)));
 
     //
-    printf("\n\n");
+    printf("\n");
 
     //
     printf("Date of change to summer time for Australia at the year %d\n", utc_date_tm->tm_year + 1900);
