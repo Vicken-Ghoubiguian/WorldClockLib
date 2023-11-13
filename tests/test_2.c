@@ -14,7 +14,8 @@ int main() {
 
     //
     printf("Date of change to winter time for Australia at the year %d\n", utc_date_tm->tm_year + 1900);
-    //first_sunday_in_april(utc_now, 2);
+    
+    //first_sunday_in_april(mktime(utc_date_tm), 2);
 
     //
     printf("Date of change to summer time for Australia at the year %d\n", utc_date_tm->tm_year + 1900);
