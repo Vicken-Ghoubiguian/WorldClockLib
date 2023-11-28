@@ -5,7 +5,7 @@
 
 #define NB_SECONDS_IN_DAY 86400
 
-time_t first_sunday_in_choosen_month(time_t today, int month, int hour)
+time_t first_wday_in_choosen_month(time_t today, int month, int wday, int hour)
 {
     //
     struct tm *date_tm;
@@ -26,7 +26,7 @@ time_t first_sunday_in_choosen_month(time_t today, int month, int hour)
     date_tm = gmtime(&date_timestamp);
 
     //
-    while(date_tm->tm_wday != 0)
+    while(date_tm->tm_wday != wday)
     {
         //
         date_timestamp = date_timestamp + NB_SECONDS_IN_DAY;
@@ -53,12 +53,12 @@ int main() {
 
     //
     printf("Date of change to winter time for Australia at the year %d : ", utc_date_tm->tm_year + 1900);
-    time_t datetime_for_winter_in_australia = first_sunday_in_choosen_month(utc_today, 3, 3);
+    time_t datetime_for_winter_in_australia = first_wday_in_choosen_month(utc_today, 3, 0, 3);
     printf("%s", asctime(gmtime(&datetime_for_winter_in_australia)));
 
     //
     printf("Date of change to summer time for Australia at the year %d : ", utc_date_tm->tm_year + 1900);
-    time_t datetime_for_summer_in_australia = first_sunday_in_choosen_month(utc_today, 9, 2);
+    time_t datetime_for_summer_in_australia = first_wday_in_choosen_month(utc_today, 9, 0, 2);
     printf("%s", asctime(gmtime(&datetime_for_summer_in_australia)));
 
     //
