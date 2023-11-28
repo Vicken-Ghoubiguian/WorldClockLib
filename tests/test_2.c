@@ -23,17 +23,6 @@ time_t first_sunday_in_choosen_month(time_t today, int month, int hour)
     date_tm->tm_sec = 0;
 
     //
-    /*if(date_tm->tm_wday == 0)
-    {
-        i = 1;
-    }
-    //
-    else
-    {
-        i = 0;
-    }*/
-
-    //
     date_timestamp = timegm(date_tm);
     date_tm = gmtime(&date_timestamp);
 
@@ -41,7 +30,7 @@ time_t first_sunday_in_choosen_month(time_t today, int month, int hour)
     while(1)
     {
         //
-        if(date_tm->tm_wday == 0 && date_tm->tm_mon == month /*&& i == 1*/)
+        if(date_tm->tm_wday == 0 && date_tm->tm_mon == month)
         {
             break;
 		}
@@ -83,7 +72,7 @@ int main() {
     printf("%s", asctime(gmtime(&datetime_for_winter_in_australia)));
 
     //
-    printf("Date of change to summer time for Australia at the year %d : \n", utc_date_tm->tm_year + 1900);
+    printf("Date of change to summer time for Australia at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t datetime_for_summer_in_australia = first_sunday_in_choosen_month(utc_today, 9, 2);
     printf("%s", asctime(gmtime(&datetime_for_summer_in_australia)));
     //
