@@ -5,6 +5,40 @@
 
 #define NB_SECONDS_IN_DAY 86400
 
+time_t last_wday_in_choosen_month(time_t today, int month, int wday, int hour)
+{
+    //
+    struct tm *date_tm;
+    time_t date_timestamp;
+
+    //
+    date_tm = gmtime(&today);
+
+    //
+    date_tm->tm_mday = 1;
+    date_tm->tm_mon = month + 1;
+    date_tm->tm_hour = hour;
+    date_tm->tm_min = 0;
+    date_tm->tm_sec = 0;
+
+    //
+    date_timestamp = timegm(date_tm);
+    date_tm = gmtime(&date_timestamp);
+
+    //
+    while(date_tm->tm_wday != wday && date_tm->tm_mon != month)
+    {
+        //
+        date_timestamp = date_timestamp - NB_SECONDS_IN_DAY;
+			
+        //
+        date_tm = gmtime(&date_timestamp);
+    }
+
+    //
+    return date_timestamp;
+}
+
 time_t first_wday_in_choosen_month(time_t today, int month, int wday, int hour)
 {
     //
@@ -73,7 +107,7 @@ int main() {
     printf("%s", asctime(gmtime(&datetime_for_winter_in_new_zealand)));
 
     //
-
+    
 
     //
     printf("=================================================");
