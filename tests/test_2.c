@@ -123,7 +123,7 @@ int main() {
 
     //
     printf("Date of change to summer time for New Zealand at the year %d : ", utc_date_tm->tm_year + 1900);
-    time_t datetime_for_summer_in_new_zealand = last_wday_in_choosen_month(utc_today, 8, 0, 3);
+    time_t datetime_for_summer_in_new_zealand = last_wday_in_choosen_month(utc_today, 8, 0, 2);
     printf("%s", asctime(gmtime(&datetime_for_summer_in_new_zealand)));
 
     //
