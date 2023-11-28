@@ -75,7 +75,6 @@ int main() {
     printf("Date of change to summer time for Australia at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t datetime_for_summer_in_australia = first_sunday_in_choosen_month(utc_today, 9, 2);
     printf("%s", asctime(gmtime(&datetime_for_summer_in_australia)));
-    //
 
     //
     printf("\n");
