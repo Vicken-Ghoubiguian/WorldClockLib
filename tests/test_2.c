@@ -5,6 +5,11 @@
 
 #define NB_SECONDS_IN_DAY 86400
 
+enum numeral {
+    FIRST,
+    LAST
+};
+
 time_t last_wday_in_choosen_month(time_t today, int month, int wday, int hour)
 {
     //
