@@ -26,7 +26,7 @@ time_t first_sunday_in_choosen_month(time_t today, int month, int hour)
     date_tm = gmtime(&date_timestamp);
 
     //
-    while(1)
+    /*while(1)
     {
         //
         if(date_tm->tm_wday == 0 && date_tm->tm_mon == month)
@@ -41,6 +41,15 @@ time_t first_sunday_in_choosen_month(time_t today, int month, int hour)
             //
             date_tm = gmtime(&date_timestamp);
         }
+    }*/
+
+    while(date_tm->tm_wday != 0 /*&& date_tm->tm_mon != month*/)
+    {
+        //
+        date_timestamp = date_timestamp + NB_SECONDS_IN_DAY;
+			
+        //
+        date_tm = gmtime(&date_timestamp);
     }
 
     //
