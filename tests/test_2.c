@@ -25,6 +25,7 @@ time_t first_sunday_in_choosen_month(time_t today, int month, int hour)
     date_timestamp = timegm(date_tm);
     date_tm = gmtime(&date_timestamp);
 
+    //
     while(1)
     {
         //
