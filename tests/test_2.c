@@ -26,11 +26,21 @@ time_t last_wday_in_choosen_month(time_t today, int month, int wday, int hour)
     date_tm = gmtime(&date_timestamp);
 
     //
-    while(date_tm->tm_wday != wday && date_tm->tm_mon != month)
+    if(date_tm->tm_wday == 0)
     {
         //
         date_timestamp = date_timestamp - NB_SECONDS_IN_DAY;
-			
+
+        //
+        date_tm = gmtime(&date_timestamp);
+    }
+
+    //
+    while(date_tm->tm_wday != wday)
+    {
+        //
+        date_timestamp = date_timestamp - NB_SECONDS_IN_DAY;
+                
         //
         date_tm = gmtime(&date_timestamp);
     }
@@ -107,7 +117,9 @@ int main() {
     printf("%s", asctime(gmtime(&datetime_for_winter_in_new_zealand)));
 
     //
-    
+    printf("Date of change to summer time for New Zealand at the year %d : ", utc_date_tm->tm_year + 1900);
+    time_t datetime_for_summer_in_new_zealand = last_wday_in_choosen_month(utc_today, 8, 0, 3);
+    printf("%s", asctime(gmtime(&datetime_for_summer_in_new_zealand)));
 
     //
     printf("=================================================");
