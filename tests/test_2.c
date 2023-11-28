@@ -7,6 +7,9 @@
 
 enum numeral {
     FIRST,
+    SECOND,
+    THIRD,
+    BEFORE_LAST,
     LAST
 };
 
