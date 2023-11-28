@@ -65,5 +65,8 @@ int main() {
     printf("\n");
 
     //
+    printf("\n================== New Zealand ==================\n");
+
+    //
     return 0;
 }
