@@ -62,10 +62,24 @@ int main() {
     printf("%s", asctime(gmtime(&datetime_for_summer_in_australia)));
 
     //
-    printf("\n");
+    printf("=================================================");
 
     //
     printf("\n================== New Zealand ==================\n");
+
+    //
+    printf("Date of change to winter time for New Zealand at the year %d : ", utc_date_tm->tm_year + 1900);
+    time_t datetime_for_winter_in_new_zealand = first_wday_in_choosen_month(utc_today, 3, 0, 3);
+    printf("%s", asctime(gmtime(&datetime_for_winter_in_new_zealand)));
+
+    //
+
+
+    //
+    printf("=================================================");
+
+    //
+    printf("\n");
 
     //
     return 0;
