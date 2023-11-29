@@ -31,11 +31,8 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
     date_tm->tm_sec = 0;
 
     //
-    switch(num)
-    {
-        case FIRST: date_tm->tm_mon = month; break;
-        case LAST: date_tm->tm_mon = month + 1; break;
-    }
+    if(num == LAST){ date_tm->tm_mon = month + 1; }
+    else{ date_tm->tm_mon = month; }
 
     //
     date_timestamp = timegm(date_tm);
@@ -59,11 +56,15 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
     while(date_tm->tm_wday != wday)
     {
         //
-        switch(num)
+        /*switch(num)
         {
             case FIRST: date_timestamp = date_timestamp + NB_SECONDS_IN_DAY; break;
             case LAST: date_timestamp = date_timestamp - NB_SECONDS_IN_DAY; break;
-        }
+        }*/
+
+        //
+        if(num == LAST){ date_timestamp = date_timestamp - NB_SECONDS_IN_DAY; }
+        else{ date_timestamp = date_timestamp + NB_SECONDS_IN_DAY; }
                 
         //
         date_tm = gmtime(&date_timestamp);
