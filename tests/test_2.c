@@ -13,6 +13,69 @@ enum numeral {
     LAST
 };
 
+// ***************************************************************************************
+
+time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour, enum numeral num)
+{
+    //
+    struct tm *date_tm;
+    time_t date_timestamp;
+
+    //
+    date_tm = gmtime(&today);
+
+    //
+    date_tm->tm_mday = 1;
+    //date_tm->tm_mon = month + 1;
+    date_tm->tm_hour = hour;
+    date_tm->tm_min = 0;
+    date_tm->tm_sec = 0;
+
+    //
+    switch(num)
+    {
+        case FIRST: date_tm->tm_mon = month; break;
+        case LAST: date_tm->tm_mon = month + 1; break;
+    }
+
+    //
+    date_timestamp = timegm(date_tm);
+    date_tm = gmtime(&date_timestamp);
+
+    //
+    if(num == LAST)
+    {
+        //
+        if(date_tm->tm_wday == 0)
+        {
+            //
+            date_timestamp = date_timestamp - NB_SECONDS_IN_DAY;
+
+            //
+            date_tm = gmtime(&date_timestamp);
+        }
+    }
+
+    //
+    while(date_tm->tm_wday != wday)
+    {
+        //
+        switch(num)
+        {
+            case FIRST: date_timestamp = date_timestamp + NB_SECONDS_IN_DAY; break;
+            case LAST: date_timestamp = date_timestamp - NB_SECONDS_IN_DAY; break;
+        }
+                
+        //
+        date_tm = gmtime(&date_timestamp);
+    }
+
+    //
+    return date_timestamp;
+}
+
+// ***************************************************************************************
+
 time_t last_wday_in_choosen_month(time_t today, int month, int wday, int hour)
 {
     //
