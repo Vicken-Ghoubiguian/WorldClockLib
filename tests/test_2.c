@@ -13,8 +13,6 @@ enum numeral {
     LAST
 };
 
-// ***************************************************************************************
-
 time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour, enum numeral num)
 {
     //
@@ -56,13 +54,6 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
     while(date_tm->tm_wday != wday)
     {
         //
-        /*switch(num)
-        {
-            case FIRST: date_timestamp = date_timestamp + NB_SECONDS_IN_DAY; break;
-            case LAST: date_timestamp = date_timestamp - NB_SECONDS_IN_DAY; break;
-        }*/
-
-        //
         if(num == LAST){ date_timestamp = date_timestamp - NB_SECONDS_IN_DAY; }
         else{ date_timestamp = date_timestamp + NB_SECONDS_IN_DAY; }
                 
@@ -73,8 +64,6 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
     //
     return date_timestamp;
 }
-
-// ***************************************************************************************
 
 //
 int main() {
