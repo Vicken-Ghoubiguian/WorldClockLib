@@ -37,17 +37,17 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
     date_tm = gmtime(&date_timestamp);
 
     //
-    if(num == LAST)
+    if((num == LAST) && (date_tm->tm_wday == 0))
     {
         //
-        if(date_tm->tm_wday == 0)
-        {
+        /*if(date_tm->tm_wday == 0)
+        {*/
             //
             date_timestamp = date_timestamp - NB_SECONDS_IN_DAY;
 
             //
             date_tm = gmtime(&date_timestamp);
-        }
+        //}
     }
 
     //
