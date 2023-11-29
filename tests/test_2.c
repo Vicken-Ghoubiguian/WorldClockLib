@@ -26,7 +26,6 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
 
     //
     date_tm->tm_mday = 1;
-    //date_tm->tm_mon = month + 1;
     date_tm->tm_hour = hour;
     date_tm->tm_min = 0;
     date_tm->tm_sec = 0;
