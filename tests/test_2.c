@@ -3,16 +3,16 @@
 #include <time.h>
 #include "../WorldClockLib/dstCalculous/dstCalculous.h"
 
-//
+// Definition of the global variable 'NB_SECONDS_IN_DAY' which contains the number of seconds in a day
 #define NB_SECONDS_IN_DAY 86400
 
-//
+// Defining the enumeration named "numeral" to specify which iteration of a week day in a month is requested
 enum numeral {
-    FIRST,
-    /*SECOND,
-    THIRD,
-    BEFORE_LAST,*/
-    LAST
+    FIRST, // First iteration of a week day in a month
+    SECOND, // Second iteration of a week day in a month
+    THIRD, // Third iteration of a week day in a month
+    BEFORE_LAST, // Penultimate iteration of a week day in a month
+    LAST // Last iteration of a week day in a month
 };
 
 //
