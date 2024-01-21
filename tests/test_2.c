@@ -16,7 +16,7 @@ enum numeral {
 };
 
 // Definition of the 'wished_wday_in_choosen_month' function to get the date of the wished week day in the wished month and the wished year
-time_t wished_wday_in_choosen_month(time_t today, int year, int month, int wday, int hour, int minute, int second, enum numeral num)
+time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour, int minute, int second, enum numeral num)
 {
     //
     int i = 0;
