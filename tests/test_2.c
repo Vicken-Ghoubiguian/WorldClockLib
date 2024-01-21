@@ -16,7 +16,7 @@ enum numeral {
 };
 
 // Definition of the 'wished_wday_in_choosen_month' function to get the date of the wished week day in the wished month and the wished year
-time_t wished_wday_in_choosen_month(/*time_t today, */int year, int month, int wday, int hour, int minute, int second, enum numeral num)
+time_t wished_wday_in_choosen_month(time_t today, int year, int month, int wday, int hour, int minute, int second, enum numeral num)
 {
     //
     int i = 0;
@@ -25,9 +25,6 @@ time_t wished_wday_in_choosen_month(/*time_t today, */int year, int month, int w
     // Definition of the 'date_tm' and the 'date_timestamp' variables
     struct tm *date_tm;
     time_t date_timestamp;
-
-    // Definition of the 'today' variable and its initialization
-    time_t today = time(NULL);
 
     //
     date_tm = gmtime(&today);
