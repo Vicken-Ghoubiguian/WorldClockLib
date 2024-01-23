@@ -1,7 +1,7 @@
 #include <string.h>
 #include <time.h>
 #include "dtFRMtz.h"
-#include "../dstCalculous/dstCalculous.h"
+//#include "../dstCalculous/dstCalculous.h"
 
 #define NB_SECONDS_IN_HOURS 3600
 #define NB_SECONDS_IN_MINUTES 60
@@ -1165,7 +1165,7 @@ time_t getDateTime_Epoch(char* timezone) {
 			break;
 		// Pacific/Norfolk
 		case 195:
-			tmz_now = first_sunday_in_april(utc_now, 2);
+			tmz_now = 0; //first_sunday_in_april(utc_now, 2);
 			/*
 				if(utc_now + 12 >= first_sunday_in_april(utc_now, 2) &&  <= utc_now)
 				{
