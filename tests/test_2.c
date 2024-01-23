@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "../WorldClockLib/dstCalculous/dstCalculous.h"
+//#include "../WorldClockLib/dstCalculous/dstCalculous.h"
 
 // Definition of the global variable 'NB_SECONDS_IN_DAY' which contains the number of seconds in a day
 #define NB_SECONDS_IN_DAY 86400
