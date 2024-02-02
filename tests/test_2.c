@@ -190,7 +190,7 @@ int main() {
     printf("=================================================");
 
     //
-    printf("\n================== Britain ==================\n");
+    printf("\n================== Britain, Ireland, France, Germany and Portugal ==================\n");
 
     //
     printf("Date of change to winter time for Britain at the year %d : ", utc_date_tm->tm_year + 1900);
