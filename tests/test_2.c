@@ -190,19 +190,6 @@ int main() {
     printf("=================================================");
 
     //
-    printf("\n================== Egypt ==================\n");
-
-    // ====> winter
-
-    //
-    printf("Date of change to summer time for Egypt at the year %d : ", utc_date_tm->tm_year + 1900);
-    time_t datetime_for_summer_in_egypt = wished_wday_in_choosen_month(utc_today, 3, 5, 0, 0, 0, LAST);
-    printf("%s", asctime(gmtime(&datetime_for_summer_in_egypt)));
-
-    //
-    printf("=================================================");
-
-    //
     printf("\n================== Britain, Ireland, France, Spain, Italy, Germany and Portugal ==================\n");
 
     //
@@ -230,6 +217,19 @@ int main() {
     printf("Date of change to summer time for United States of America (USA) at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t datetime_for_summer_in_usa = wished_wday_in_choosen_month(utc_today, 10, 0, 2, 0, 0, FIRST);
     printf("%s", asctime(gmtime(&datetime_for_summer_in_usa)));
+
+    //
+    printf("=================================================");
+
+    //
+    printf("\n================== Egypt ==================\n");
+
+    // ====> winter
+
+    //
+    printf("Date of change to summer time for Egypt at the year %d : ", utc_date_tm->tm_year + 1900);
+    time_t datetime_for_summer_in_egypt = wished_wday_in_choosen_month(utc_today, 3, 5, 0, 0, 0, LAST);
+    printf("%s", asctime(gmtime(&datetime_for_summer_in_egypt)));
 
     //
     printf("=================================================");
