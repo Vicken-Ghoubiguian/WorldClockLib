@@ -227,7 +227,9 @@ int main() {
     printf("%s", asctime(gmtime(&datetime_for_winter_in_usa)));
 
     //
-
+    printf("Date of change to summer time for United States of America (USA) at the year %d : ", utc_date_tm->tm_year + 1900);
+    time_t datetime_for_summer_in_usa = wished_wday_in_choosen_month(utc_today, 10, 0, 2, 0, 0, FIRST);
+    printf("%s", asctime(gmtime(&datetime_for_summer_in_usa)));
 
     //
     printf("=================================================");
