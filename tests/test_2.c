@@ -222,7 +222,9 @@ int main() {
     printf("\n================== United States of America ==================\n");
 
     //
-
+    printf("Date of change to winter time for United States of America (USA) at the year %d : ", utc_date_tm->tm_year + 1900);
+    time_t datetime_for_winter_in_usa = wished_wday_in_choosen_month(utc_today, 2, 0, 2, 0, 0, SECOND);
+    printf("%s", asctime(gmtime(&datetime_for_winter_in_usa)));
 
     //
 
