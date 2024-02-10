@@ -238,12 +238,12 @@ int main() {
     printf("\n================== Canada ==================\n");
 
     //
-    printf("Date of change to winter time for United States of America (USA) at the year %d : ", utc_date_tm->tm_year + 1900);
+    printf("Date of change to winter time for Canada of America (USA) at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t datetime_for_winter_in_canada = wished_wday_in_choosen_month(utc_today, 2, 0, 2, 0, 0, SECOND);
     printf("%s", asctime(gmtime(&datetime_for_winter_in_canada)));
 
     //
-    printf("Date of change to summer time for Egypt at the year %d : ", utc_date_tm->tm_year + 1900);
+    printf("Date of change to summer time for Canada at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t datetime_for_summer_in_canada = wished_wday_in_choosen_month(utc_today, 10, 0, 2, 0, 0, FIRST);
     printf("%s", asctime(gmtime(&datetime_for_summer_in_canada)));
 
