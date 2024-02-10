@@ -241,7 +241,9 @@ int main() {
     
 
     //
-
+    printf("Date of change to summer time for Egypt at the year %d : ", utc_date_tm->tm_year + 1900);
+    time_t datetime_for_summer_in_canada = wished_wday_in_choosen_month(utc_today, 10, 0, 2, 0, 0, FIRST);
+    printf("%s", asctime(gmtime(&datetime_for_summer_in_canada)));
 
     //
     printf("=================================================");
