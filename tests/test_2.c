@@ -253,8 +253,6 @@ int main() {
     //
     printf("\n================== Paraguay ==================\n");
 
-    // ====> winter
-
     //
     printf("Date of change to winter time for Paraguay at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t datetime_for_winter_in_paraguay = wished_wday_in_choosen_month(utc_today, 9, 0, 1, 0, 0, FIRST);
