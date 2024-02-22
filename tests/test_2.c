@@ -238,7 +238,7 @@ int main() {
     printf("\n================== Canada ==================\n");
 
     //
-    printf("Date of change to winter time for Canada of America (USA) at the year %d : ", utc_date_tm->tm_year + 1900);
+    printf("Date of change to winter time for Canada at the year %d : ", utc_date_tm->tm_year + 1900);
     time_t datetime_for_winter_in_canada = wished_wday_in_choosen_month(utc_today, 2, 0, 2, 0, 0, SECOND);
     printf("%s", asctime(gmtime(&datetime_for_winter_in_canada)));
 
