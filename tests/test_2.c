@@ -149,7 +149,7 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
 }
 
 // Definition of the 'n_weekday_in_choosen_year' function to get the nth choosen weekday in a choosen year
-time_t n_weekday_in_choosen_year(int year, int wday, int number_of_weekday_in_the_year)
+time_t wished_wday_in_choosen_year(int year, int wday, int number_of_weekday_in_the_year)
 {
 
     //
