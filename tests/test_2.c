@@ -149,6 +149,14 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
 }
 
 //
+time_t n_weekday_in_choosen_year(int year, int wday, int number_of_weekday_in_the_year)
+{
+
+    //
+    return 0;
+}
+
+//
 int main() {
 
     //
