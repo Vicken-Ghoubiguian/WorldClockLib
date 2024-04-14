@@ -69,7 +69,7 @@ time_t wished_wday_in_choosen_month(time_t today, int month, int wday, int hour,
     }
 
     //
-    if((num == LAST) && (date_tm->tm_wday == 0))
+    if((num == LAST) && (date_tm->tm_wday == wday))
     {
         //
         date_timestamp = date_timestamp - NB_SECONDS_IN_DAY;
